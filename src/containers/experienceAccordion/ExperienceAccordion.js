@@ -41,10 +41,18 @@ class ExperienceAccordion extends Component {
                     </h3>
 
                     <p>
-                      Mainly we provide Web Application with online payment and
-                      online database for securing the data, System Softwares,
-                      Desktops, Laptops and we are also providing computer
-                      repare facility.
+                    Client : <i>WALGREENS</i> (Second-largest pharmacy store chain in the United State)
+                    <br />
+                    <br />
+                    Worked as a Java backend developer in MWS (Mobile Web Service) team with apps that build 
+on Microservice Architecture.
+                    <br />
+                    
+                    Worked with end to end client to fix customer problems.
+                    <br />
+                    
+                    Help the team to fix and modify the cloud Azure works/problems
+                    <br />
                       <br />
                     </p>
                   </div>
@@ -83,10 +91,6 @@ class ExperienceAccordion extends Component {
                     boot in HSBC for LoanIQ <br />
                     UK team for Core Banking Systems with apps that build on
                     Microservice Architecture.
-                    <br />
-                    *Reviewed daily, weekly and monthly data to identify waste
-                    drivers/storage and improved overall <br /> quality targets
-                    by 13%
                     <br />* Organized and leaded cross-functional problem
                     solving teams through root cause identification,
                     verification and corrective action steps including
