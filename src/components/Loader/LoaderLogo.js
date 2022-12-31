@@ -14,9 +14,9 @@ class LogoLoader extends React.Component {
       heart.style.width = 20 + size + "px";
       heart.style.height = 20 + size + "px";
       if (
-        window.location.href == "https://alanbinu.me/#/" ||
-        window.location.href == "https://alanbinu.me/#/splash" ||
-        window.location.href == "http://localhost:3000/" ||
+        window.location.href == "https://alanbinu.com/#/" ||
+        window.location.href == "https://alanbinu.com/#/splash" ||
+        window.location.href == "http://localhost:3000/#/" ||
         window.location.href == "http://localhost:3000/#/splash"
       ) {
         body.appendChild(heart);

@@ -2,7 +2,7 @@
   "name": "mine",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alanbinu.me/",
+  "homepage": "https://www.alanbinu.com/",
   "dependencies": {
     "@alan-ai/alan-sdk-web": "^1.8.28",
     "@testing-library/jest-dom": "^5.11.10",
