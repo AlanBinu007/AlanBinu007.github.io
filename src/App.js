@@ -47,8 +47,7 @@ function App() {
         } else if (commandData.command == "emailmesg") {
           window.open("mailto:alanbinu5@gmail.com", "_blank");
         } else if (commandData.command == "username") {
-          console.log(commandData.value.value);
-          localStorage.setItem("name", commandData.value.value);
+          localStorage.setItem("name", commandData.value);
         } else if (commandData.command == "changename") {
           localStorage.setItem("name", commandData.value);
         }
@@ -58,7 +57,8 @@ function App() {
           await alanBtnInstance.activate();
           if (localStorage.getItem("name") == null) {
             alanBtnInstance.playText(
-              "Hi. Welcome to my digital world. I am your Artificial intelligence integrated voice assistant, you can ask simple questions like Introduce yourself, contact alan, show alans latest projects, open his Github profile, what is the time, whats the weather on my area, whats todays date, and also you can ask to give me latest news. Thanks for visiting my profile and enjoy your time"
+              // "Hi. Welcome to my digital world. I am your Artificial intelligence integrated voice assistant, you can ask simple questions like Introduce yourself, contact alan, show alans latest projects, open his Github profile, what is the time, whats the weather on my area, whats todays date, and also you can ask to give me latest news. Thanks for visiting my profile and enjoy your time"
+              "Hi. Welcome to my digital world. I am your Artificial intelligence integrated voice assistant, you can ask simple questions and i will try my best to answer it"
             );
             // alanBtnInstance.playText("I am your Artificial intelligence integrated voice assistant, you can ask simple questions like Introduce yourself, contact alan, show alans latest projects, open his Github profile, what is the time, whats the weather on my area, whats todays date, and also you can ask to give me latest news. Thanks for visiting my profile and enjoy your time");
             alanBtnInstance.callProjectApi("startAlan");
