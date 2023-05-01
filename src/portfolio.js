@@ -354,7 +354,7 @@ const degrees = {
       descriptions1: [
         "⚡ MCA Specialized in Data Science, Machine Learning and Artificial intelligence",
         "⚡ Hand-on experience using Cloud and Data mining",
-        "⚡ Final Year Project : AI Automation Attendence Marking Sysyem With Speech Recognition ",
+        "⚡ Final Year Project : AI Face Detection Attendance Marking System ",
       ],
       website_link1: "http://ignou.ac.in/",
     },

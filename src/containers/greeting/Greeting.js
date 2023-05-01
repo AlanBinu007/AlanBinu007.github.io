@@ -24,7 +24,7 @@ export default function Greeting(props) {
       <h1 class="h11">Hello World </h1>
       <p className="greeting-text-p">I am Alan Binu</p>
       <p className="greeting-text-p3">
-        Professional Full Stack Java Developer
+        Professional Java Developer
       </p>
       <h4 class="i1">
 

@@ -47,7 +47,7 @@ class DegreeCard extends Component {
                   {/* <h3 className="card-subtitle1">
                     Foreign Equivalency : MASTER'S DEGREE (Verifyed By WES )
                   </h3>  */}
-                  2020 - 2022
+                  2020 - 2023
                 </div>
                 <div className="body-header-duration">
                   <h3 className="duration" style={{ color: theme.text }}></h3>
