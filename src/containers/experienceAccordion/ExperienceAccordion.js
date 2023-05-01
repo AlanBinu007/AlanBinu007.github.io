@@ -29,7 +29,7 @@ class ExperienceAccordion extends Component {
                     <h3>
                       <a href="https://www.tcs.com" target="_blank"><h5 class="resume-title">TCS</h5></a>
                     </h3>
-                    <i>September 2022 - present</i>
+                    <i>September 2022 - January 2023</i>
                     <br />
                     <i>Full Time</i>
                     <br />
@@ -44,17 +44,29 @@ class ExperienceAccordion extends Component {
                     Client : <i>WALGREENS</i> (Second-largest pharmacy store chain in the United State)
                     <br />
                     <br />
-                    Worked as a Java backend developer in MWS (Mobile Web Service) team with apps that build 
+                    Worked as a Java backend developer in MWS (Mobile Web Service) team with apps that <br />build 
 on Microservice Architecture.
                     <br />
                     
-                    Worked with end to end client to fix customer problems.
+                    Worked with the dev team to fix customer problems.
                     <br />
                     
                     Help the team to fix and modify the cloud Azure works/problems
                     <br />
                       <br />
                     </p>
+                    {/* <div class="col-lg-4">
+                <a
+                  href="https://drive.google.com/file/d/1HgJlOEPPkcZ6e_-zbNfHaSTpBsx4NxJg/view?usp=sharing"
+                  target="_blank"
+                >
+                  <div class="blog-item-wrapper">
+                    <div class="blog-item-img">
+                      <img src={infosys} alt="" width="150" height="200"/>
+                    </div>
+                  </div>
+                </a>
+                </div> */}
                   </div>
                 </div>
               <div class="timeline-block">
@@ -96,22 +108,20 @@ on Microservice Architecture.
                     verification and corrective action steps including
                     preventive actions
                     <br />* Created a new way of log extraction all over the
-                    LoanIQ team for faster development and process <br />{" "}
+                    LoanIQ team for faster <br />development and process <br />{" "}
                     requirement and it is widely used across the team.
                     <br />* Created a React project that help to deploy the
-                    Control-M jobs to live within seconds, thus <br /> increased
-                    the productivity by 6% across the team.
-                    <br />* Helped the team to solve the Apache Httpd server
-                    crash issue that block around 110+M$ in US <br /> region and
-                    also created a new setup to monitor Httpd server in every 5
-                    min in Control-m.
+                    Control-M jobs to live within seconds,<br /> thus  increased
+                    the productivity across the team.
+                    <br />* Created a new setup to monitor Httpd server in every 5
+                    min in Control-m to fix the <br />Apache Server crash notification
                     <br />* Successful transformed Control-m jobs fetcher
-                    application from JSP, InfluxDb stack to React, <br />{" "}
-                    MongoDB which cut latency by 40% and increased effectiveness
-                    of database administrators by 20%
+                    application from JSP, InfluxDb stack <br />to React, {" "}
+                    MongoDB which recrease the latency  and increased effectiveness
+                    of database.
                   </p>
                 
-                  <div class="col-lg-4">
+                  {/* <div class="col-lg-4">
                 <a
                   href="https://drive.google.com/file/d/1HgJlOEPPkcZ6e_-zbNfHaSTpBsx4NxJg/view?usp=sharing"
                   target="_blank"
@@ -122,10 +132,10 @@ on Microservice Architecture.
                     </div>
                   </div>
                 </a>
-                </div>
+                </div> */}
               </div>
               </div>
-              <div class="timeline-block">
+              {/* <div class="timeline-block">
                   <div class="timeline-ico">
                     <i class="fa fa-briefcase" aria-hidden="true"></i>
                   </div>
@@ -142,11 +152,11 @@ on Microservice Architecture.
 
                   <div class="timeline-content">
                     <h3>
-                      <h5 class="resume-title">Software Developer</h5>
+                      <h5 class="resume-title">Software Developer - Trainee</h5>
                     </h3>
 
                     <p>
-                      Worked in the JSM stack for Gold Loan Application
+                      Worked in the Java backend for Gold Loan Application
                       <br />
                     </p>
                     <div class="col-lg-4">
@@ -162,7 +172,7 @@ on Microservice Architecture.
                 </a>
                 </div>
                   </div>
-                </div>
+                </div> */}
 
               <div class="timeline-block">
                 <div class="timeline-block">
@@ -182,7 +192,7 @@ on Microservice Architecture.
 
                   <div class="timeline-content">
                     <h3>
-                      <h5 class="resume-title">Software Developer</h5>
+                      <h5 class="resume-title">Software Developer - Intern</h5>
                     </h3>
 
                     <p>
@@ -198,7 +208,7 @@ on Microservice Architecture.
                       HTML, CSS, MySql, Bootstrap and PHP
                       <br />
                     </p>
-                    <div class="col-lg-4">
+                    {/* <div class="col-lg-4">
                 <a
                   href="https://drive.google.com/file/d/1uxuRJcwtbE48p61CzSI7XH71h4Lljgu9/view?usp=sharing"
                   target="_blank"
@@ -209,7 +219,7 @@ on Microservice Architecture.
                     </div>
                   </div>
                 </a>
-                </div>
+                </div> */}
                   </div>
                 </div>
 
@@ -242,11 +252,11 @@ on Microservice Architecture.
                     </p>
                     <div class="col-lg-4">
                 
-                  <div class="blog-item-wrapper">
+                  {/* <div class="blog-item-wrapper">
                     <div class="blog-item-img">
                       <img src={webtechsolutions} alt="" width="250" height="150"/>
                     </div>
-                  </div>
+                  </div> */}
              
                 </div>
                   </div>
