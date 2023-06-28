@@ -11,10 +11,10 @@ export default class ContactForm extends Component {
 
       emailjs
         .sendForm(
-          "service_9r05fgj",
-          "template_0nn6dva",
+          "service_84joz9v",
+          "template_vmt95lh",
           e.target,
-          "user_gfDwVVfxclGN8gJp0Uiak"
+          "IEGfeMtwgbnEJludb"
         )
         .then(
           (result) => {  
