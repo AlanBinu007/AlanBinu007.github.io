@@ -3,11 +3,7 @@ import "./DegreeCard.css";
 import { Fade, Flip } from "react-reveal";
 import mca from "../../images/ignou1.png";
 import bca from "../../images/mg.png";
-import q from "../../images/q.png";
-import w from "../../images/w.jpg";
-import z from "../../images/z.jpg";
-import mit from "../../assests/images/mit.png";
-import hbs from "../../assests/images/hbs.png";
+
 
 class DegreeCard extends Component {
   render() {
@@ -47,7 +43,7 @@ class DegreeCard extends Component {
                   {/* <h3 className="card-subtitle1">
                     Foreign Equivalency : MASTER'S DEGREE (Verifyed By WES )
                   </h3>  */}
-                  2020 - 2023
+                  2021 - 2023
                 </div>
                 <div className="body-header-duration">
                   <h3 className="duration" style={{ color: theme.text }}></h3>

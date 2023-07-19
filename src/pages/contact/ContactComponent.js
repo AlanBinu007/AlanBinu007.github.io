@@ -48,7 +48,7 @@ class Contact extends Component {
                 </p>
                 <SocialMedia theme={theme} />
                 <div className="resume-btn-div">
-                <a href="https://drive.google.com/u/0/uc?id=197HMh-qX4MyV6wAZp541XMIi3PbgLxF2&export=download" download>
+                <a href="https://drive.google.com/u/0/uc?id=1-9WcmbZ6uXlfAd70in4lNEX2_DHwJBnM&export=download" download>
                   <button
                   className="button1"
                 >
