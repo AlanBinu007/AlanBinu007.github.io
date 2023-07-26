@@ -17,7 +17,7 @@ export default class ContactForm extends Component {
           "IEGfeMtwgbnEJludb"
         )
         .then(
-          (result) => {  
+          (result) => {
             swal(
               "Email Send Sucessfully!",
               "I will replay to you as soon as i possible",
@@ -33,10 +33,13 @@ export default class ContactForm extends Component {
     return (
       <>
         <div class="contact-section">
-        Please feel free to contact me
-         <br/>
-         <br/>
+          <br />
+          <br />
+          <b>Please feel free to contact me</b>
+          <br />
+          <br />
           <form class="contact-form" onSubmit={sendEmail}>
+            <br />
             <input
               type="text"
               name="name"
@@ -66,7 +69,6 @@ export default class ContactForm extends Component {
             ></textarea>
             <input type="submit" class="contact-form-btn" value="Send" />
           </form>
-        
         </div>
       </>
     );

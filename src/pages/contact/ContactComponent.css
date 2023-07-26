@@ -35,9 +35,9 @@
 }
 
 .contact-heading-img-div {
-  align-items: center;
   justify-content: center;
-  margin-left: 60px;
+  margin-left: 15%;
+  margin-top: 5%;
 }
 
 
@@ -57,10 +57,11 @@
 
 .address-heading-text-div {
   text-align: center;
+  margin-left: 8%;
 }
 
 .contact-heading-img-div > * {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
 

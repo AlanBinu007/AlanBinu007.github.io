@@ -25,9 +25,9 @@ function Projects(props) {
       <div className="basic-projects">
         <Fade bottom duration={2000} distance="40px">
           <div className="projects-heading-div">
-            <div className="projects-heading-img-div">
+            {/* <div className="projects-heading-img-div"> */}
               <ProjectsImg theme={theme} />
-            </div>
+            {/* </div> */}
             <div className="projects-heading-text-div">
               <h1 className="projects-heading-text">{projectsHeader.title}</h1>
               <p

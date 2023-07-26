@@ -1,11 +1,7 @@
 import React from "react";
 import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import { greeting } from "../../portfolio";
-import { Fade } from "react-reveal";
 import { useHistory } from "react-router-dom";
-import FeelingProud from "./FeelingProud";
-import Button from "../../components/button/Button";
 import { style } from "glamor";
 
 export default function Greeting(props) {
@@ -24,13 +20,10 @@ export default function Greeting(props) {
       <h1 class="h11">Hello World </h1>
       <p className="greeting-text-p">I am Alan Binu</p>
       <p className="greeting-text-p3">
-        Professional Java Developer
+        Professional Java, Spring Boot Developer
       </p>
       <h4 class="i1">
-
-        <b className="greeting-text-p1">
-        Master's degree in Computer Science
-                </b>
+        <b className="greeting-text-p1">Master's degree in Computer Science</b>
       </h4>
       <SocialMedia />
       <div className="portfolio-repo-btn-div">

@@ -7,20 +7,23 @@ import DataScienceImg from "./DataScienceImg";
 import FullStackImg from "./FullStackImg";
 import CloudInfraImg from "./CloudInfraImg";
 import DesignImg from "./DesignImg";
+import Lottie from "lottie-react";
+import HomeAni1 from "../../assests/animations/Home-ani1.json";
+import HomeAni2 from "../../assests/animations/Home-ani2.json";
+import HomeAni3 from "../../assests/animations/Home-ani3.json";
 
 function GetSkillSvg(props) {
   if (props.fileName === "DataScienceImg")
-    return <DataScienceImg theme={props.theme} />;
+    return <Lottie animationData={HomeAni2} />;
   else if (props.fileName === "FullStackImg")
-    return <FullStackImg theme={props.theme} />;
+    return <Lottie animationData={HomeAni1} />;
   else if (props.fileName === "CloudInfraImg")
-    return <CloudInfraImg theme={props.theme} />;
+    return <Lottie animationData={HomeAni3} />;
   return <DesignImg theme={props.theme} />;
 }
 
 function SkillSection(props) {
-
-    const theme = props.theme;
+  const theme = props.theme;
   return (
     <div>
       {skills.data.map((skill, index) => {
@@ -35,9 +38,7 @@ function SkillSection(props) {
 
               <div className="skills-text-div">
                 <Fade right duration={1000}>
-                  <h1 className="skills-heading">
-                    {skill.title}
-                  </h1>
+                  <h1 className="skills-heading">{skill.title}</h1>
                 </Fade>
                 <Fade right duration={1500}>
                   <SoftwareSkill logos={skill.softwareSkills} />
@@ -46,11 +47,11 @@ function SkillSection(props) {
                   <div>
                     {skill.skills.map((skillSentence) => {
                       return (
-                        
                         <p
                           className="subTitle skills-text"
                           style={{ color: theme.secondaryText }}
-                        ><br/>
+                        >
+                          <br />
                           {skillSentence}
                         </p>
                       );
@@ -65,9 +66,7 @@ function SkillSection(props) {
             <div className="skills-main-div">
               <div className="skills-text-div">
                 <Fade left duration={1000}>
-                  <h1 className="skills-heading">
-                    {skill.title}
-                  </h1>
+                  <h1 className="skills-heading">{skill.title}</h1>
                 </Fade>
                 <Fade left duration={1500}>
                   <SoftwareSkill logos={skill.softwareSkills} />
@@ -79,7 +78,8 @@ function SkillSection(props) {
                         <p
                           className="subTitle skills-text"
                           style={{ color: theme.secondaryText }}
-                        ><br/>
+                        >
+                          <br />
                           {skillSentence}
                         </p>
                       );

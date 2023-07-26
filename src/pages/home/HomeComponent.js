@@ -25,7 +25,7 @@ class Home extends Component {
               <Greeting theme={theme} />
               </div>
               <div className="heading-img-div">
-                <FeelingProud theme={theme} />
+              <FeelingProud theme={theme} />
               </div>
             </div>
           </Fade>
