@@ -66,11 +66,15 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Proffestional in Spring Full Stack Developent",
+        "⚡ Proficient in Core Java and Spring Boot",
+
+        "⚡ Experience in Full Stack Spring Developent",
 
         "⚡ Building responsive website front end using ReactJS",
 
-        "⚡ Creating application backend in Node, Express & SpringBoot",
+        "⚡ Advanced Understanding of OOP Concepts",
+        "⚡ Well-Versed in Testing and Debugging Methods",
+        "⚡ Capable Problem Solver with Strong Logical Aptitude",
       ],
       softwareSkills: [
         {
@@ -78,6 +82,13 @@ const skills = {
           fontAwesomeClassname: "simple-icons:java",
           style: {
             color: "#979dbf",
+          },
+        },
+        {
+          skillName: "Spring",
+          fontAwesomeClassname: "simple-icons:spring",
+          style: {
+            color: "#0db84b",
           },
         },
         {
@@ -92,13 +103,6 @@ const skills = {
           fontAwesomeClassname: "fa-css3",
           style: {
             color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
           },
         },
         {
@@ -138,13 +142,6 @@ const skills = {
           },
         },
         {
-          skillName: "Spring",
-          fontAwesomeClassname: "simple-icons:spring",
-          style: {
-            color: "#0db84b",
-          },
-        },
-        {
           skillName: "ExpressJs",
           fontAwesomeClassname: "simple-icons:express",
           style: {
@@ -171,9 +168,11 @@ const skills = {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Certifications by deeplearning.ai, IBM Data Science and Google Data Engineering using Google Cloud",
+        "⚡ Experience of working with Computer Vision and NLP projects in personal projects",
+        "⚡ Certifications from deeplearning.ai, IBM Data Science and Google Data Engineering using Google Cloud",
         "⚡ Skilled in Tableau, MS Excel and other Data Analysis tools",
+        "⚡ Good Knoweldge in SQL and NoSQL",
+        "⚡ Good in Problem Solving",
       ],
       softwareSkills: [
         {
@@ -189,13 +188,6 @@ const skills = {
           style: {
             backgroundColor: "white",
             color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
           },
         },
         {
@@ -219,9 +211,11 @@ const skills = {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
+        "⚡ Limited Hands-on Experience with Cloud Services from Different Providers",
+        "⚡ Experience in hosting and managing websites",
         "⚡ Experience with Continuous Integration and DevOps",
+        "⚡ Understanding the Linux OS",
+        "⚡ Divine Knowledge in Web Services and APIs",
       ],
       softwareSkills: [
         {
