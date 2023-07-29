@@ -7,7 +7,7 @@ import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
-import Greeting from "../../containers/greeting/Greeting"
+import Greeting from "../../containers/greeting/Greeting";
 
 class Home extends Component {
   render() {
@@ -20,17 +20,18 @@ class Home extends Component {
         <div className="basic-education">
           <Fade bottom duration={2000} distance="40px">
             <div className="heading-div">
-              
               <div className="heading-text-div">
-              <Greeting theme={theme} />
+                <Greeting theme={theme} />
               </div>
               <div className="heading-img-div">
-              <FeelingProud theme={theme} />
+                <div style={{ width: 600, height: 600 }}>
+                  <FeelingProud theme={theme} />
+                </div>
               </div>
             </div>
           </Fade>
         </div>
-        <Skills theme={this.props.theme}/>
+        <Skills theme={this.props.theme} />
 
         <Footer theme={this.props.theme} />
         <TopButton theme={this.props.theme} />

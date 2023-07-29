@@ -18,6 +18,8 @@
 .heading-img-div {
   align-items: center;
   justify-content: center;
+  max-width: 80%;
+  height: 80%;
 }
 
 .heading-text-div {
@@ -25,8 +27,8 @@
 }
 
 .heading-img-div > * {
-  max-width: 100%;
-  height: 90%;
+  max-width: 80%;
+  height: 80%;
 }
 
 .heading-text {

@@ -47,7 +47,7 @@ class Contact extends Component {
               </div>
               <div className="address-btn-div">
                 <Button
-                  text="💕Support by Sponsering Me on Github💕"
+                  text="Support by Sponsering Me on Github💝"
                   newTab={true}
                   href="https://github.com/sponsors/AlanBinu007"
                   theme={theme}

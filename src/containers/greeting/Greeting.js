@@ -28,7 +28,7 @@ export default function Greeting(props) {
       <SocialMedia />
       <div className="portfolio-repo-btn-div">
         <a href="https://github.com/sponsors/AlanBinu007" target="_blank">
-          <button className="button1">💕Sponser Me💕</button>
+          <button className="button1">Sponsor Me💝</button>
         </a>
 
         <button
