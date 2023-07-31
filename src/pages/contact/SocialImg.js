@@ -4,7 +4,6 @@ import ContactAni from "../../assests/animations/Contact-ani1.json";
 
 export default class SocialImg extends Component {
   render() {
-    const theme = this.props.theme;
     return <Lottie animationData={ContactAni} />;
   }
 }

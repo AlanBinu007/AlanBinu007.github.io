@@ -26,7 +26,6 @@ class Contact extends Component {
             <div className="contact-heading-img-div">
               <SocialImg theme={theme} />
             </div>
-
             <div className="contact-heading-text-div">
               <h1 className="contact-heading-text">{ContactData["title"]}</h1>
               <p

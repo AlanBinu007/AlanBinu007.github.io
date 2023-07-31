@@ -18,27 +18,23 @@ class Experience extends Component {
           <Fade bottom duration={2000} distance="40px">
             <div className="experience-heading-div">
               <div className="experience-heading-img-div">
-                <ExperienceImg theme={theme} />
+                <div style={{ width: 600, height: 600 }}>
+                  <ExperienceImg theme={theme} />
+                </div>
               </div>
               <div className="experience-heading-text-div">
-                <h1
-                  className="experience-heading-text"
-                 
-                >
-                  Experience
-                </h1>
+                <h1 className="experience-heading-text">Experience</h1>
                 <p
                   className="experience-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  "Success is the ability to go from failure to failure without losing your enthusiasm."
+                  "Success is the ability to go from failure to failure without
+                  losing your enthusiasm."
                 </p>
-                <h3
-                  className="experience-heading-sub-text"
-                  
-                >
+                <h3 className="experience-heading-sub-text">
                   My Work and Volunteership
-                </h3><br />
+                </h3>
+                <br />
                 <p
                   className="experience-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}

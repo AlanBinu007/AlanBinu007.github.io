@@ -38,38 +38,15 @@ class Education extends Component {
           <Fade bottom duration={2000} distance="40px">
             <div className="heading-div">
               <div className="heading-img-div">
-                {/* <img
-									src={require("../../assests/images/education.svg")}
-									alt=""
-								/> */}
-                <EducationImg theme={theme} />
+                <div style={{ width: 600, height: 600 }}>
+                  <EducationImg theme={theme} />
+                </div>
               </div>
               <div className="heading-text-div">
                 <h1 className="heading-text">
                   Education
                   <br />
                 </h1>
-                <Fade bottom duration={2000} distance="40px">
-                  <a href="https://leetcode.com/alanbinu5/" target="_blank">
-                    <img
-                      className="organizations-imgnewnew"
-                      src={g}
-                      alt="aaaaaa"
-                    />
-                  </a>
-                  LeetCode Profile
-                  <a
-                    href="https://www.hackerrank.com/alanbinu5"
-                    target="_blank"
-                  >
-                    <img
-                      className="organizations-imgnewnew"
-                      src={hr}
-                      alt="aaaaaa"
-                    />
-                  </a>
-                  HackeRrank Profile
-                </Fade>
                 <p
                   className="experience-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}

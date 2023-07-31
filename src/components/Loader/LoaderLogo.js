@@ -2,6 +2,7 @@ import React from "react";
 import "./LoaderLogo.css";
 import Lottie from "lottie-react";
 import Space from "../../assests/animations/space.json";
+import Loading from "../../assests/animations/loading1.json";
 
 class LogoLoader extends React.Component {
   render() {
@@ -46,6 +47,9 @@ class LogoLoader extends React.Component {
         </div>
         <div style={{ width: 380, height: 380 }}>
           <Lottie animationData={Space} />
+          <div>
+            <Lottie animationData={Loading} />
+          </div>
         </div>
 
         {/* <div class="loader"></div> */}
