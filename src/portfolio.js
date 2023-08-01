@@ -276,6 +276,87 @@ const skills = {
         },
       ],
     },
+    {
+      title: "BlockChain and Web 3.0",
+      fileName: "CryptoCry",
+      skills: [
+        "⚡ Enthusiastic about exploring and collaborating with Web3.0 and blockchain technologies",
+        "⚡ Limited Hands-on Experience with Web3.0 and BlockChain Development",
+        "⚡ Basic familiarity with Smart Contracts",
+      ],
+      softwareSkills: [
+        {
+          skillName: "BitCoin",
+          fontAwesomeClassname: "logos:bitcoin",
+          style: {
+            color: "#4285F4",
+          },
+        },
+        {
+          skillName: "Web 3.0",
+          fontAwesomeClassname: "simple-icons:web3dotjs",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "Etherium",
+          fontAwesomeClassname: "majesticons:etherium-circle",
+          style: {
+            color: "#0089D6",
+          },
+        },
+        {
+          skillName: "Solidity",
+          fontAwesomeClassname: "skill-icons:solidity",
+          style: {
+            color: "#FFCA28",
+          },
+        },
+        {
+          skillName: "Metamask",
+          fontAwesomeClassname: "logos:metamask-icon",
+          style: {
+            color: "#FFCA28",
+          },
+        },
+        {
+          skillName: "BlockChain",
+          fontAwesomeClassname: "eos-icons:blockchain",
+          style: {
+            color: "#336791",
+          },
+        },
+        {
+          skillName: "Truffle",
+          fontAwesomeClassname: "logos:truffle",
+          style: {
+            color: "#47A248",
+          },
+        },
+        {
+          skillName: "Doge Coin",
+          fontAwesomeClassname: "cryptocurrency:edoge",
+          style: {
+            color: "#1488C6",
+          },
+        },
+        {
+          skillName: "Alchemy",
+          fontAwesomeClassname: "simple-icons:alchemy",
+          style: {
+            color: "#326CE5",
+          },
+        },
+        {
+          skillName: "Hardhat",
+          fontAwesomeClassname: "devicon:hardhat",
+          style: {
+            color: "#326CE5",
+          },
+        },
+      ],
+    },
   ],
 };
 
@@ -328,8 +409,7 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Bachelor of Computer Application",
-      subtitle: "BCA",
+      title: "Bachelor's degree in Computer Science",
       logo_path: "mg.png",
       alt_name: "MG_Uni",
       duration: "2017 - 2020",
@@ -340,13 +420,12 @@ const degrees = {
         "⚡ Final Year Project : Realtime Student Management System",
       ],
       website_link: "https://www.mgu.ac.in/",
-      title1: "Master of Computer Application",
-      subtitle1: "MCA",
+      title1: "Master's degree in Computer Science",
       logo_path1: "ignou.png",
       alt_name1: "MCA",
       duration1: "2021 - 2023",
       descriptions1: [
-        "⚡ MCA Specialized in Data Science, Machine Learning and Artificial intelligence",
+        "⚡ This master's degree Specialized in Data Science, Machine Learning and Artificial intelligence",
         "⚡ Hand-on experience using Cloud and Data mining",
         "⚡ Final Year Project : AI Face Detection Attendance Marking System ",
       ],

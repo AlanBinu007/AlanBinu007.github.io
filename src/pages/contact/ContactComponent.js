@@ -38,7 +38,7 @@ class Contact extends Component {
               <SocialMedia theme={theme} />
               <div className="resume-btn-div">
                 <a
-                  href="https://drive.google.com/u/0/uc?id=1-9WcmbZ6uXlfAd70in4lNEX2_DHwJBnM&export=download"
+                  href="https://firebasestorage.googleapis.com/v0/b/alanbinu-stripe.appspot.com/o/Alan%20Binu-CV.pdf?alt=media&token=c17cd636-1b59-459b-950a-b1768d52dd75"
                   download
                 >
                   <button className="button1">Download My Resume</button>
