@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import "./exp.css";
 import { Fade, Flip } from "react-reveal";
-import infosys from './infosys.jpg'
-import indel from './Indel.png'
-import santhisoft from './santhisoft.png'
-import webtechsolutions from './webtechsolutions.png'
+import infosys from "./infosys.jpg";
+import indel from "./Indel.png";
+import santhisoft from "./santhisoft.png";
+import webtechsolutions from "./webtechsolutions.png";
 
 class ExperienceAccordion extends Component {
   render() {
@@ -20,42 +20,45 @@ class ExperienceAccordion extends Component {
             <br />
             <div class="col-twelve"></div>
             <div class="timeline-wrap">
-            <div class="timeline-block">
-                  <div class="timeline-ico">
-                    <i class="fa fa-briefcase" aria-hidden="true"></i>
-                  </div>
+              <div class="timeline-block">
+                <div class="timeline-ico">
+                  <i class="fa fa-briefcase" aria-hidden="true"></i>
+                </div>
 
-                  <div class="timeline-header">
-                    <h3>
-                      <a href="https://www.tcs.com" target="_blank"><h5 class="resume-title">TCS</h5></a>
-                    </h3>
-                    <i>September 2022 - January 2023</i>
-                    <br />
-                    <i>Full Time</i>
-                    <br />
-                  </div>
+                <div class="timeline-header">
+                  <h3>
+                    <a href="https://www.tcs.com" target="_blank">
+                      <h5 class="resume-title">TCS</h5>
+                    </a>
+                  </h3>
+                  <i>September 2022 - January 2023</i>
+                  <br />
+                  <i>Full Time</i>
+                  <br />
+                </div>
 
-                  <div class="timeline-content">
-                    <h3>
-                      <h5 class="resume-title">Java Develoer</h5>
-                    </h3>
+                <div class="timeline-content">
+                  <h3>
+                    <h5 class="resume-title">Java Develoer</h5>
+                  </h3>
 
-                    <p>
-                    Client : <i>WALGREENS</i> (Second-largest pharmacy store chain in the United State)
+                  <p>
+                    Client : <i>WALGREENS</i> (Second-largest pharmacy store
+                    chain in the United State)
                     <br />
                     <br />
-                    Worked as a Java backend developer in MWS (Mobile Web Service) team with apps that <br />build 
-on Microservice Architecture.
+                    Worked as a Java backend developer in MWS (Mobile Web
+                    Service) team with apps that <br />
+                    build on Microservice Architecture.
                     <br />
-                    
                     Worked with the dev team to fix customer problems.
                     <br />
-                    
-                    Help the team to fix and modify the cloud Azure works/problems
+                    Help the team to fix and modify the cloud Azure
+                    works/problems
                     <br />
-                      <br />
-                    </p>
-                    {/* <div class="col-lg-4">
+                    <br />
+                  </p>
+                  {/* <div class="col-lg-4">
                 <a
                   href="https://drive.google.com/file/d/1HgJlOEPPkcZ6e_-zbNfHaSTpBsx4NxJg/view?usp=sharing"
                   target="_blank"
@@ -67,8 +70,8 @@ on Microservice Architecture.
                   </div>
                 </a>
                 </div> */}
-                  </div>
                 </div>
+              </div>
               <div class="timeline-block">
                 <div class="timeline-ico">
                   <i class="fa fa-briefcase" aria-hidden="true"></i>
@@ -76,7 +79,9 @@ on Microservice Architecture.
 
                 <div class="timeline-header">
                   <h3>
-                  <a href="https://www.infosys.com" target="_blank"><h5 class="resume-title">Infosys ltd</h5></a>
+                    <a href="https://www.infosys.com" target="_blank">
+                      <h5 class="resume-title">Infosys ltd</h5>
+                    </a>
                   </h3>
                   <i>August 2020 - August 2022</i>
                   <br />
@@ -104,23 +109,25 @@ on Microservice Architecture.
                     UK team for Core Banking Systems with apps that build on
                     Microservice Architecture.
                     <br />* Organized and leaded cross-functional problem
-                    solving teams through root cause identification,
-                    verification and corrective action steps including
-                    preventive actions
+                    solving teams through root cause <br />
+                    identification, verification and corrective action steps
+                    including preventive actions
                     <br />* Created a new way of log extraction all over the
-                    LoanIQ team for faster <br />development and process <br />{" "}
-                    requirement and it is widely used across the team.
+                    LoanIQ team for faster <br />
+                    development and process <br /> requirement and it is widely
+                    used across the team.
                     <br />* Created a React project that help to deploy the
-                    Control-M jobs to live within seconds,<br /> thus  increased
-                    the productivity across the team.
-                    <br />* Created a new setup to monitor Httpd server in every 5
-                    min in Control-m to fix the <br />Apache Server crash notification
+                    Control-M jobs to live within seconds,
+                    <br /> thus increased the productivity across the team.
+                    <br />* Created a new setup to monitor Httpd server in every
+                    5 min in Control-m to fix the <br />
+                    Apache Server crash notification
                     <br />* Successful transformed Control-m jobs fetcher
-                    application from JSP, InfluxDb stack <br />to React, {" "}
-                    MongoDB which recrease the latency  and increased effectiveness
-                    of database.
+                    application from JSP, InfluxDb stack <br />
+                    to React, MongoDB which recrease the latency and increased
+                    effectiveness of database.
                   </p>
-                
+
                   {/* <div class="col-lg-4">
                 <a
                   href="https://drive.google.com/file/d/1HgJlOEPPkcZ6e_-zbNfHaSTpBsx4NxJg/view?usp=sharing"
@@ -133,7 +140,7 @@ on Microservice Architecture.
                   </div>
                 </a>
                 </div> */}
-              </div>
+                </div>
               </div>
               {/* <div class="timeline-block">
                   <div class="timeline-ico">
@@ -182,7 +189,9 @@ on Microservice Architecture.
 
                   <div class="timeline-header">
                     <h3>
-                    <a href="http://santhisoft.com/" target="_blank"><h5 class="resume-title">Santhisoft Technologies</h5></a>
+                      <a href="http://santhisoft.com/" target="_blank">
+                        <h5 class="resume-title">Santhisoft Technologies</h5>
+                      </a>
                     </h3>
                     <i>November 2019 - March 2020</i>
                     <br />
@@ -230,7 +239,12 @@ on Microservice Architecture.
 
                   <div class="timeline-header">
                     <h3>
-                    <a href="https://web-tech-solutions.web.app/" target="_blank"><h5 class="resume-title">Web Tech Solutions</h5></a>
+                      <a
+                        href="https://web-tech-solutions.web.app/"
+                        target="_blank"
+                      >
+                        <h5 class="resume-title">Web Tech Solutions</h5>
+                      </a>
                     </h3>
                     <i>Januvary 2017 - February 2020</i>
                     <br />
@@ -245,20 +259,19 @@ on Microservice Architecture.
 
                     <p>
                       Mainly we provide Web Application with online payment and
-                      online database for securing the data, System Softwares,
-                      Desktops, Laptops and we are also providing computer
-                      repare facility.
+                      online database for <br />
+                      securing the data, System Softwares, Desktops, Laptops and
+                      we are also providing
+                      <br /> computer repare facility.
                       <br />
                     </p>
                     <div class="col-lg-4">
-                
-                  {/* <div class="blog-item-wrapper">
+                      {/* <div class="blog-item-wrapper">
                     <div class="blog-item-img">
                       <img src={webtechsolutions} alt="" width="250" height="150"/>
                     </div>
                   </div> */}
-             
-                </div>
+                    </div>
                   </div>
                 </div>
               </div>

@@ -14,7 +14,7 @@ class Home extends Component {
     const theme = this.props.theme;
 
     return (
-      <div>
+      <>
         <Header theme={this.props.theme} />
         <div className="basic-education">
           <Fade bottom duration={2000} distance="40px">
@@ -34,7 +34,7 @@ class Home extends Component {
 
         <Footer theme={this.props.theme} />
         <TopButton theme={this.props.theme} />
-      </div>
+      </>
     );
   }
 }

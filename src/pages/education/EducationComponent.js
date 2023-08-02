@@ -26,12 +26,11 @@ import m10 from "../../images/m10.png";
 import m11 from "../../images/m11.png";
 import scrum from "../../images/scrum.png";
 
-
 class Education extends Component {
   render() {
     const theme = this.props.theme;
     return (
-      <div className="education-main">
+      <>
         <Header theme={this.props.theme} />
         <div className="basic-education">
           <Fade bottom duration={2000} distance="40px">
@@ -88,15 +87,7 @@ class Education extends Component {
                 <img className="organizations-imgnew" src={c} alt="aaaaaa" />
               </Fade>
             </li>
-            <li className="organizations-inline">
-              <Fade bottom duration={2000} distance="40px">
-                <img
-                  className="organizations-imgnew"
-                  src={scrum}
-                  alt="aaaaaa"
-                />
-              </Fade>
-            </li>
+
             <li className="organizations-inline">
               <Fade bottom duration={2000} distance="40px">
                 <img className="organizations-imgnew" src={d} alt="aaaaaa" />
@@ -105,7 +96,11 @@ class Education extends Component {
 
             <li className="organizations-inline">
               <Fade bottom duration={2000} distance="40px">
-                <img className="organizations-imgnew" src={f} alt="aaaaaa" />
+                <img
+                  className="organizations-imgnew"
+                  src={scrum}
+                  alt="aaaaaa"
+                />
               </Fade>
             </li>
             <li className="organizations-inline">
@@ -204,7 +199,7 @@ class Education extends Component {
         </div>
         <Footer theme={this.props.theme} />
         <TopButton theme={this.props.theme} />
-      </div>
+      </>
     );
   }
 }

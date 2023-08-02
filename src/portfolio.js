@@ -992,7 +992,7 @@ const projects = {
     },
     {
       id: "7",
-      name: "Covid-19 tracker Using SPringBoot",
+      name: "Covid-19 tracker Using SpringBoot",
       url: "https://github.com/AlanBinu007/Covid-19-Spring",
       live: "",
       tech: "Technologies Used : SpringBoot, HTML, CSS, BootStrap, Material UI",
