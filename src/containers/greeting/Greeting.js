@@ -3,6 +3,7 @@ import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { useHistory } from "react-router-dom";
 import { style } from "glamor";
+import Typewriter from "typewriter-effect";
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -20,15 +21,31 @@ export default function Greeting(props) {
       <h1 class="h11">Hello World </h1>
       <p className="greeting-text-p">I am Alan Binu</p>
       <p className="greeting-text-p3">
-        Professional Java, Spring Boot Developer
+        <Typewriter
+          options={{
+            strings: [
+              "Professional Java Developer",
+              "Spring Boot Developer",
+              "Passionate Blockchain Enthusiast",
+              "Committed Open Source Contributor",
+              "Effective Problem Solver",
+            ],
+            autoStart: true,
+            loop: true,
+            deleteSpeed: 50,
+          }}
+        />
       </p>
       <h4 class="i1">
         <b className="greeting-text-p1">Master's degree in Computer Science</b>
       </h4>
       <SocialMedia />
       <div className="portfolio-repo-btn-div">
-        <a href="https://github.com/sponsors/AlanBinu007" target="_blank">
-          <button className="button1">Sponsor Me💝</button>
+        <a
+          href="https://firebasestorage.googleapis.com/v0/b/alanbinu-stripe.appspot.com/o/Alan%20Binu-CV.pdf?alt=media&token=c17cd636-1b59-459b-950a-b1768d52dd75"
+          download
+        >
+          <button className="button1">Get a copy of my CV</button>
         </a>
 
         <button

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Header from "../../components/header/Header";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
 import FeelingProud from "./FeelingProud";
 import Skills from "../../containers/skills/Skills";
 import Footer from "../../components/footer/Footer";
@@ -15,7 +14,7 @@ class Home extends Component {
     const theme = this.props.theme;
 
     return (
-      <div className="education-main">
+      <div>
         <Header theme={this.props.theme} />
         <div className="basic-education">
           <Fade bottom duration={2000} distance="40px">

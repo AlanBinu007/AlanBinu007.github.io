@@ -11,7 +11,7 @@ const seo = {
   og: {
     title: "Alan Binu Portfolio",
     type: "website",
-    url: "",
+    url: "www.alanbinu.com",
   },
 };
 
@@ -63,10 +63,10 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
+      title: "Backend Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Proficient in Core Java and Spring Boot",
+        "⚡ Proficient in Backend Develpment using Spring Boot",
 
         "⚡ Experience in Full Stack Spring Developent",
 

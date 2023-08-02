@@ -7,6 +7,7 @@ import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
 import ExperienceImg from "./ExperienceImg";
+import Github from "../../containers/github/github";
 
 class Experience extends Component {
   render() {
@@ -53,6 +54,8 @@ class Experience extends Component {
             </div>
           </Fade>
         </div>
+        <Github />
+        <br />
         <ExperienceAccordion sections={experience["sections"]} theme={theme} />
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
