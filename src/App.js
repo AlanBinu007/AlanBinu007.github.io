@@ -1,13 +1,12 @@
-import React, { useState, useEffect } from "react";
+import alanBtn from "@alan-ai/alan-sdk-web";
+import React, { useEffect, useState } from "react";
+import ReactGA from "react-ga";
+import { ThemeProvider } from "styled-components";
 import "./App.css";
 import Main from "./containers/Main";
-import { ThemeProvider } from "styled-components";
-import { themes } from "./theme";
 import { GlobalStyles } from "./global";
-import { CursorProvider } from "react-cursor-custom";
 import { settings } from "./portfolio";
-import ReactGA from "react-ga";
-import alanBtn from "@alan-ai/alan-sdk-web";
+import { themes } from "./theme";
 
 function App() {
   useEffect(() => {

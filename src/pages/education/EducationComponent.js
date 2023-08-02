@@ -13,7 +13,6 @@ import c from "../../images/c.png";
 import d from "../../images/d.png";
 import e from "../../images/e.png";
 import f from "../../images/f.png";
-import g from "../../images/g.png";
 import m1 from "../../images/m1.png";
 import m2 from "../../images/m2.png";
 import m3 from "../../images/m3.png";
@@ -26,7 +25,7 @@ import m9 from "../../images/m9.png";
 import m10 from "../../images/m10.png";
 import m11 from "../../images/m11.png";
 import scrum from "../../images/scrum.png";
-import hr from "../../images/hr1.png";
+
 
 class Education extends Component {
   render() {
