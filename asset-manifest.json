@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.35d9ad0d.chunk.css",
-    "main.js": "/static/js/main.d1989c11.chunk.js",
-    "main.js.map": "/static/js/main.d1989c11.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a2f5fb0c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a2f5fb0c.js.map",
-    "static/js/2.0e8aa86d.chunk.js": "/static/js/2.0e8aa86d.chunk.js",
-    "static/js/2.0e8aa86d.chunk.js.map": "/static/js/2.0e8aa86d.chunk.js.map",
+    "main.css": "/static/css/main.025c1eb5.chunk.css",
+    "main.js": "/static/js/main.d9ab84d3.chunk.js",
+    "main.js.map": "/static/js/main.d9ab84d3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1d91fabb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1d91fabb.js.map",
+    "static/js/2.f46194ba.chunk.js": "/static/js/2.f46194ba.chunk.js",
+    "static/js/2.f46194ba.chunk.js.map": "/static/js/2.f46194ba.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.35d9ad0d.chunk.css.map": "/static/css/main.35d9ad0d.chunk.css.map",
-    "static/js/2.0e8aa86d.chunk.js.LICENSE.txt": "/static/js/2.0e8aa86d.chunk.js.LICENSE.txt",
+    "static/css/main.025c1eb5.chunk.css.map": "/static/css/main.025c1eb5.chunk.css.map",
+    "static/js/2.f46194ba.chunk.js.LICENSE.txt": "/static/js/2.f46194ba.chunk.js.LICENSE.txt",
     "static/media/1.ce8691f2.png": "/static/media/1.ce8691f2.png",
     "static/media/10.9bebbcaa.png": "/static/media/10.9bebbcaa.png",
     "static/media/11.7cd2bebf.png": "/static/media/11.7cd2bebf.png",
@@ -40,7 +40,6 @@
     "static/media/e.65031c14.png": "/static/media/e.65031c14.png",
     "static/media/f.6fc7f67b.png": "/static/media/f.6fc7f67b.png",
     "static/media/all.css": "/static/media/fa-solid-900.decfdcb6.svg",
-    "static/media/g.c78fc082.png": "/static/media/g.c78fc082.png",
     "static/media/github.828bc91c.png": "/static/media/github.828bc91c.png",
     "static/media/ignou1.f1563b20.png": "/static/media/ignou1.f1563b20.png",
     "static/media/infosys.316211f0.jpg": "/static/media/infosys.316211f0.jpg",
@@ -69,9 +68,9 @@
     "static/media/webtechsolutions.e74531e7.png": "/static/media/webtechsolutions.e74531e7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a2f5fb0c.js",
-    "static/js/2.0e8aa86d.chunk.js",
-    "static/css/main.35d9ad0d.chunk.css",
-    "static/js/main.d1989c11.chunk.js"
+    "static/js/runtime-main.1d91fabb.js",
+    "static/js/2.f46194ba.chunk.js",
+    "static/css/main.025c1eb5.chunk.css",
+    "static/js/main.d9ab84d3.chunk.js"
   ]
 }
