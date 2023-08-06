@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Lottie from "lottie-react";
-import BlogAni from "../../assests/animations/Blog-ani.json";
+import BlogAni from "../../assests/animations/blog.json";
 
 export default class BlogsImg extends Component {
   render() {

@@ -1,7 +1,7 @@
 import React from "react";
 import "./LoaderLogo.css";
 import Lottie from "lottie-react";
-import Loading from "../../assests/animations/loading1.json";
+import Loading from "../../assests/animations/loading.json";
 
 class LogoLoader extends React.Component {
   render() {

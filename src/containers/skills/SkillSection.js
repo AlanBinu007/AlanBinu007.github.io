@@ -8,20 +8,20 @@ import FullStackImg from "./FullStackImg";
 import CloudInfraImg from "./CloudInfraImg";
 import DesignImg from "./DesignImg";
 import Lottie from "lottie-react";
-import HomeAni1 from "../../assests/animations/Home-ani1.json";
-import HomeAni2 from "../../assests/animations/Home-ani2.json";
-import HomeAni3 from "../../assests/animations/Home-ani3.json";
-import HomeAni4 from "../../assests/animations/Home-ani9.json";
+import backend from "../../assests/animations/backend.json";
+import datascience from "../../assests/animations/datascience.json";
+import cloud from "../../assests/animations/cloud.json";
+import crypto from "../../assests/animations/crypto.json";
 
 function GetSkillSvg(props) {
   if (props.fileName === "DataScienceImg")
-    return <Lottie animationData={HomeAni2} />;
+    return <Lottie animationData={datascience} />;
   else if (props.fileName === "FullStackImg")
-    return <Lottie animationData={HomeAni1} />;
+    return <Lottie animationData={backend} />;
   else if (props.fileName === "CloudInfraImg")
-    return <Lottie animationData={HomeAni3} />;
+    return <Lottie animationData={cloud} />;
   else if (props.fileName === "CryptoCry")
-    return <Lottie animationData={HomeAni4} />;
+    return <Lottie animationData={crypto} />;
   return <DesignImg theme={props.theme} />;
 }
 

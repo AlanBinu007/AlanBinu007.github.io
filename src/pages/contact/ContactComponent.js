@@ -5,7 +5,6 @@ import TopButton from "../../components/topButton/TopButton";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import AddressImg from "./AddressImg";
-import GoogleeMapImg from "./GoogleMapImg";
 import SocialImg from "./SocialImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
