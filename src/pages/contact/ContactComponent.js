@@ -75,7 +75,7 @@ class Contact extends Component {
               <br />
               <div>
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462563.0327239402!2d54.89782785133359!3d25.075658393618294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1691298899434!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4858.101284345305!2d55.15590893718361!3d25.092351951589624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6be20232a78b%3A0x4f6727442f0bd497!2sDubai%20Internet%20City!5e0!3m2!1sen!2sin!4v1691328554048!5m2!1sen!2sin"
                   width="1000"
                   height="650"
                   style={GoogleMapStyle}
