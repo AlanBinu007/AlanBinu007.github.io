@@ -89,7 +89,7 @@ function App() {
   return (
     <ThemeProvider theme={themes[theme]}>
       <GlobalStyles />
-      <Stars />
+      {/* <Stars /> */}
       <div>
         <Main theme={themes[theme]} setTheme={setTheme} />
       </div>

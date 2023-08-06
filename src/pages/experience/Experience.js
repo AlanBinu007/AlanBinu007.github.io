@@ -8,12 +8,14 @@ import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
 import ExperienceImg from "./ExperienceImg";
 import Github from "../../containers/github/github";
+import Stars from "../../components/Stars/Stars";
 
 class Experience extends Component {
   render() {
     const theme = this.props.theme;
     return (
       <div className="experience-main">
+        <Stars />
         <Header theme={theme} />
         <div className="basic-experience">
           <Fade bottom duration={2000} distance="40px">

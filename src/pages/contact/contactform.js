@@ -35,7 +35,7 @@ export default class ContactForm extends Component {
         <div class="contact-section">
           <br />
           <br />
-          <b>Please feel free to contact me</b>
+          <b>I'd love to hear from you</b>
           <br />
           <br />
           <form class="contact-form" onSubmit={sendEmail}>
@@ -47,6 +47,7 @@ export default class ContactForm extends Component {
               placeholder="Name"
               required
             />
+            <br />
             <input
               type="email"
               name="email"
@@ -54,6 +55,8 @@ export default class ContactForm extends Component {
               placeholder="Email"
               required
             />
+            <br />
+
             <input
               type="text"
               name="subject"
@@ -61,13 +64,21 @@ export default class ContactForm extends Component {
               placeholder="Subject"
               required
             />
+            <br />
+
             <textarea
               class="contact-form-text"
               name="message"
               placeholder="Message"
               required
             ></textarea>
+            <br />
+
             <input type="submit" class="contact-form-btn" value="Send" />
+            <br />
+            <br />
+            <br />
+            <br />
           </form>
         </div>
       </>

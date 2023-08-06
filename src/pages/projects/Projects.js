@@ -8,6 +8,7 @@ import TopButton from "../../components/topButton/TopButton";
 import ProjectsImg from "./ProjectsImg";
 import { style } from "glamor";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
+import Stars from "../../components/Stars/Stars";
 
 function Projects(props) {
   const theme = props.theme;
@@ -21,6 +22,7 @@ function Projects(props) {
 
   return (
     <div className="projects-main">
+      <Stars />
       <Header theme={theme} setTheme={props.setTheme} />
       <div className="basic-projects">
         <Fade bottom duration={2000} distance="40px">

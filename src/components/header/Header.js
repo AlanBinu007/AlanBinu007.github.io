@@ -6,7 +6,7 @@ import { greeting, settings } from "../../portfolio.js";
 import { CgSun } from "react-icons/cg/";
 import { HiMoon } from "react-icons/hi";
 import { style } from "glamor";
-import { setTheme } from '../../App';
+import { setTheme } from "../../App";
 
 function Header(props) {
   const theme = props.theme;
@@ -30,7 +30,7 @@ function Header(props) {
     },
   });
 
-  const link = settings.isSplash ? "/splash" : "home";
+  const link = "";
 
   const [currTheme, setCurrTheme] = useState(props.theme);
 
@@ -40,7 +40,7 @@ function Header(props) {
       localStorage.setItem("theme", "dark");
       setCurrTheme("dark");
     } else {
-      props.setTheme="light";
+      props.setTheme = "light";
       localStorage.setItem("theme", "light");
       setCurrTheme("light");
     }
@@ -65,13 +65,11 @@ function Header(props) {
     <Fade top duration={1000} distance="20px">
       <div>
         <header className="header">
-          <NavLink to={link} tag={Link} className="logo">
-            <span style={{ color: theme.text }}></span>
+          <span style={{ color: theme.text }} className="logo">
             <span className="logo-name" style={{ color: theme.text }}>
               {greeting.logo_name}
             </span>
-            <span style={{ color: theme.text }}></span>
-          </NavLink>
+          </span>
           <input className="menu-btn" type="checkbox" id="menu-btn" />
           <label className="menu-icon" htmlFor="menu-btn">
             <span className="navicon"></span>
@@ -143,7 +141,6 @@ function Header(props) {
                 Contact
               </NavLink>
             </li>
-            
           </ul>
         </header>
       </div>

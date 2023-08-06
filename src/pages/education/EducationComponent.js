@@ -25,12 +25,14 @@ import m9 from "../../images/m9.png";
 import m10 from "../../images/m10.png";
 import m11 from "../../images/m11.png";
 import scrum from "../../images/scrum.png";
+import Stars from "../../components/Stars/Stars";
 
 class Education extends Component {
   render() {
     const theme = this.props.theme;
     return (
       <>
+        <Stars />
         <Header theme={this.props.theme} />
         <div className="basic-education">
           <Fade bottom duration={2000} distance="40px">

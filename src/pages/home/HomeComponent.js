@@ -7,6 +7,7 @@ import TopButton from "../../components/topButton/TopButton";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
 import Greeting from "../../containers/greeting/Greeting";
+import Stars from "../../components/Stars/Stars";
 
 class Home extends Component {
   render() {
@@ -15,6 +16,7 @@ class Home extends Component {
 
     return (
       <>
+        <Stars />
         <Header theme={this.props.theme} />
         <div className="basic-education">
           <Fade bottom duration={2000} distance="40px">

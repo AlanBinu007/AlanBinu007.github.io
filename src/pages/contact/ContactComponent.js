@@ -4,22 +4,30 @@ import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import BlogsImg from "./BlogsImg";
 import AddressImg from "./AddressImg";
+import GoogleeMapImg from "./GoogleMapImg";
 import SocialImg from "./SocialImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 import ContactForm from "./contactform";
+import Stars from "../../components/Stars/Stars";
 
 const ContactData = contactPageData.contactSection;
-const addressSection = contactPageData.addressSection;
+
+const GoogleMapStyle = {
+  border: "green",
+  borderRadius: 20,
+  border: 30,
+  paddingLeft: 10,
+};
 
 class Contact extends Component {
   render() {
     const theme = this.props.theme;
     return (
       <>
+        <Stars />
         <Header theme={theme} />
         <div className="contact-heading-div">
           <Fade bottom duration={1000} distance="40px">
@@ -60,9 +68,33 @@ class Contact extends Component {
         <Fade bottom duration={1000} distance="40px">
           <div className="address-heading-div">
             <div className="address-heading-text-div">
+              <div class="contact-section-map">
+                <b>Where I'm Currently Located</b>
+              </div>
+              <br />
+              <br />
+              <div>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462563.0327239402!2d54.89782785133359!3d25.075658393618294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1691298899434!5m2!1sen!2sin"
+                  width="1000"
+                  height="650"
+                  style={GoogleMapStyle}
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+            <br />
+          </div>
+          <div className="address-heading-div">
+            <div className="address-heading-text-div">
               <ContactForm />
             </div>
-            <div className="contact-heading-img-div">
+            <div
+              className="contact-heading-img-div-address"
+              style={{ marginLeft: 100 }}
+            >
               <AddressImg theme={theme} />
             </div>
           </div>
