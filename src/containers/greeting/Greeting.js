@@ -47,16 +47,9 @@ export default function Greeting(props) {
         >
           <button className="button1">Get a copy of my CV</button>
         </a>
-
-        <button
-          {...styles}
-          className="button"
-          onClick={() => {
-            history.push("/contact");
-          }}
-        >
-          Hire Me
-        </button>
+        <a href="https://consultationwithalan.web.app/" target="_blank">
+          <button className="button">Book 1-1 Consultation with Me</button>
+        </a>
       </div>
 
       <div className="resume-btn-div"></div>

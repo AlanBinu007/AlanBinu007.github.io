@@ -58,6 +58,14 @@ class Contact extends Component {
                   href="https://github.com/sponsors/AlanBinu007"
                   theme={theme}
                 />
+                <br />
+              </div>
+              <div className="resume-btn-div">
+                <a href="https://consultationwithalan.web.app/" target="_blank">
+                  <button className="button">
+                    Book 1-1 Consultation with Me
+                  </button>
+                </a>
               </div>
             </div>
           </Fade>{" "}
