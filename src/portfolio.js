@@ -54,7 +54,7 @@ const socialMediaLinks = [
   },
   {
     name: "Twitter",
-    link: "https://twitter.com/@alanalanbinu",
+    link: "https://twitter.com/AlanBinuTeacher",
     fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   },
