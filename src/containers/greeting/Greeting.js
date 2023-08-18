@@ -24,7 +24,7 @@ export default function Greeting(props) {
         <Typewriter
           options={{
             strings: [
-              "Professional Java Developer",
+              "Core Java Developer",
               "Spring Boot Developer",
               "Passionate Blockchain Enthusiast",
               "Committed Open Source Contributor",
