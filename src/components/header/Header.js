@@ -11,55 +11,7 @@ import { setTheme } from "../../App";
 function Header(props) {
   const theme = props.theme;
 
-  const styles = style({
-    cursor: "pointer",
-    height: "45px",
-    width: "65px",
-    paddingTop: "5px",
-    borderRadius: "50%",
-    border: "none",
-    alignItems: "center",
-    justifyContent: "center",
-    backgroundColor: props.theme.name === "light" ? "#7CD1F7" : "#292C3F",
-    outline: "none",
-    transition: "all 0.2s ease-in-out",
-    ":hover": {
-      boxShadow: `0 3px 8px ${
-        props.theme.name === "light" ? "#F7D774" : "#646464"
-      }`,
-    },
-  });
-
-  const link = "";
-
   const [currTheme, setCurrTheme] = useState(props.theme);
-
-  function changeTheme() {
-    if (currTheme === "light") {
-      props.setTheme("dark");
-      localStorage.setItem("theme", "dark");
-      setCurrTheme("dark");
-    } else {
-      props.setTheme = "light";
-      localStorage.setItem("theme", "light");
-      setCurrTheme("light");
-    }
-  }
-
-  const icon =
-    props.theme.name === "dark" ? (
-      <HiMoon
-        strokeWidth={1}
-        size={20}
-        color={props.theme.name === "light" ? "#F9D784" : "#A7A7A7"}
-      />
-    ) : (
-      <CgSun
-        strokeWidth={1}
-        size={20}
-        color={props.theme.name === "light" ? "#F9D784" : "#A7A7A7"}
-      />
-    );
 
   return (
     <Fade top duration={1000} distance="20px">

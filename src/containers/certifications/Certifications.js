@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./Certifications.css";
 import { Fade } from "react-reveal";
 import CertificationCard from "../../components/certificationCard/CertificationCard";
-import Button from "../../components/button/Button";
 
 
 class Certifications extends Component {

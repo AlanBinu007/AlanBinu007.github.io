@@ -7,7 +7,6 @@ import Experience from "../pages/experience/Experience";
 import Opensource from "../pages/blog/blog";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
-import { settings } from "../portfolio.js";
 
 export default class Main extends Component {
   render() {
@@ -23,6 +22,7 @@ export default class Main extends Component {
             />
             <Route
               path="/home"
+              exact
               render={(props) => <Home {...props} theme={this.props.theme} />}
             />
             <Route
