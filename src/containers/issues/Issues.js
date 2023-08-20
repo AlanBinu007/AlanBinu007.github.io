@@ -82,7 +82,7 @@ const toggle = (props) => {
       </center>
       <br />
       <br />
-      <section id="blog" class="section">
+      <section id="blog" class="section1">
         <div class="container">
           <div class="row">
             <div class="col-lg-4">
@@ -115,7 +115,7 @@ const toggle = (props) => {
                 href="https://alanbinu.hashnode.dev/what-should-i-learn-aws-or-gcp-or-azure-in-2021-ckny9v9yu0dfmews1h0sl9oez"
                 target="_blank"
               >
-                <div class="blog-item-wrapper">
+                <div class="blog-item-wrapper" style={{}}>
                   <div class="blog-item-img">
                     <img src={cloud} alt="" />
                   </div>
@@ -162,7 +162,7 @@ const toggle = (props) => {
         </div>{" "}
         <br /> <br /> <br />
       </section>
-      <section id="blog" class="section">
+      <section id="blog" class="section1">
         <div class="container">
           <div class="row">
             <div class="col-lg-4">
@@ -248,7 +248,7 @@ const toggle = (props) => {
         </div>{" "}
         <br /> <br /> <br />
       </section>
-      <section id="blog" class="section">
+      <section id="blog" class="section1">
         <div class="container">
           <div class="row">
             <div class="col-lg-4">
@@ -328,7 +328,7 @@ const toggle = (props) => {
         </div>{" "}
         <br /> <br /> <br />
       </section>
-      <section id="blog" class="section">
+      <section id="blog" class="section1">
         <div class="container">
           <div class="row">
             <div class="col-lg-4">
