@@ -4,10 +4,6 @@ import { Redirect } from "react-router-dom";
 import LoaderLogo from "../../components/Loader/LoaderLogo.js";
 
 function AnimatedSplash(props) {
-  useEffect(() => {
-    document.body.style.zoom = "100%";
-  });
-
   return (
     <div className="logo_wrapper">
       <div className="screen" style={{ backgroundColor: props.theme.body }}>
@@ -26,7 +22,8 @@ class Splash extends Component {
   }
 
   componentDidMount() {
-    this.id = setTimeout(() => this.setState({ redirect: true }), 5500);
+    document.body.style.zoom = "100%";
+    this.id = setTimeout(() => this.setState({ redirect: true }), 4000);
   }
 
   componentWillMount() {
