@@ -1,9 +1,13 @@
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
 import "./Splash.css";
 import { Redirect } from "react-router-dom";
 import LoaderLogo from "../../components/Loader/LoaderLogo.js";
 
 function AnimatedSplash(props) {
+  useEffect(() => {
+    document.body.style.zoom = "100%";
+  });
+
   return (
     <div className="logo_wrapper">
       <div className="screen" style={{ backgroundColor: props.theme.body }}>

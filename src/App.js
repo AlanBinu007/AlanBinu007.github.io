@@ -7,7 +7,6 @@ import Main from "./containers/Main";
 import { GlobalStyles } from "./global";
 import { settings } from "./portfolio";
 import { themes } from "./theme";
-import Stars from "./components/Stars/Stars";
 
 function App() {
   useEffect(() => {
@@ -85,12 +84,9 @@ function App() {
 
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
 
-  const useCursor = settings.useCustomCursor;
-
   return (
     <ThemeProvider theme={themes[theme]}>
       <GlobalStyles />
-      {/* <Stars /> */}
       <div>
         <Main theme={themes[theme]} setTheme={setTheme} />
       </div>
