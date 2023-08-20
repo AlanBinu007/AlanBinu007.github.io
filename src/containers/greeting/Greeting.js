@@ -24,11 +24,11 @@ export default function Greeting(props) {
         <Typewriter
           options={{
             strings: [
-              "Core Java Developer",
-              "Spring Boot Developer",
-              "Passionate Blockchain Enthusiast",
-              "Committed Open Source Contributor",
-              "Effective Problem Solver",
+              "<b>Core Java Developer</b>",
+              "<b>Spring Boot Developer</b>",
+              "<b>Passionate Blockchain Enthusiast</b>",
+              "<b>Committed Open Source Contributor</b>",
+              "<b>Effective Problem Solver</b>",
             ],
             autoStart: true,
             loop: true,

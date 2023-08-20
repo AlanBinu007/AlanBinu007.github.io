@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import emailjs from "emailjs-com";
 import "./contactform.css";
-import swal from "sweetalert";
+import toast, { Toaster } from "react-hot-toast";
 
 export default class ContactForm extends Component {
   render() {
@@ -18,20 +18,17 @@ export default class ContactForm extends Component {
         )
         .then(
           (result) => {
-            swal(
-              "Email Send Sucessfully!",
-              "I will replay to you as soon as i possible",
-              "success"
-            );
+            toast.success("Email Send Sucessfully!");
           },
           (error) => {
-            swal("Error!", "Try After Some Time!", "error");
+            toast.error("Error!, Try After Some Time");
           }
         );
       e.target.reset();
     }
     return (
       <>
+        <Toaster />
         <div class="contact-section">
           <br />
           <br />

@@ -7,6 +7,7 @@ import Main from "./containers/Main";
 import { GlobalStyles } from "./global";
 import { settings } from "./portfolio";
 import { themes } from "./theme";
+import toast, { Toaster } from "react-hot-toast";
 
 function App() {
   useEffect(() => {
@@ -56,6 +57,7 @@ function App() {
       onConnectionStatus: async function (status) {
         if (status === "authorized") {
           await alanBtnInstance.activate();
+          toast.success("Alan AI has been activatetd");
           if (localStorage.getItem("name") == null) {
             alanBtnInstance.playText(
               // "Hi. Welcome to my digital world. I am your Artificial intelligence integrated voice assistant, you can ask simple questions like Introduce yourself, contact alan, show alans latest projects, open his Github profile, what is the time, whats the weather on my area, whats todays date, and also you can ask to give me latest news. Thanks for visiting my profile and enjoy your time"
@@ -88,6 +90,7 @@ function App() {
     <ThemeProvider theme={themes[theme]}>
       <GlobalStyles />
       <div>
+        <Toaster />
         <Main theme={themes[theme]} setTheme={setTheme} />
       </div>
     </ThemeProvider>
