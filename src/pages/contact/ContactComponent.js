@@ -11,6 +11,7 @@ import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 import ContactForm from "./contactform";
 import Stars from "../../components/Stars/Stars";
+import toast, { Toaster } from "react-hot-toast";
 
 const ContactData = contactPageData.contactSection;
 
@@ -24,6 +25,18 @@ const GoogleMapStyle = {
 class Contact extends Component {
   render() {
     const theme = this.props.theme;
+
+    function downloadCV() {
+      const apiPromise = new Promise((resolve, reject) => {
+        setTimeout(() => {
+          resolve({ data: "okay" });
+        }, 3000);
+      });
+      toast.promise(apiPromise, {
+        loading: "Getting the file.....",
+        success: "Downloading the file.....",
+      });
+    }
     return (
       <>
         <Stars />
@@ -48,7 +61,9 @@ class Contact extends Component {
                   href="https://firebasestorage.googleapis.com/v0/b/alanbinu-stripe.appspot.com/o/Alan%20Binu-CV.pdf?alt=media&token=c17cd636-1b59-459b-950a-b1768d52dd75"
                   download
                 >
-                  <button className="button1">Download My Resume</button>
+                  <button className="button1" onClick={downloadCV}>
+                    Download My Resume
+                  </button>
                 </a>
               </div>
               <div className="address-btn-div">
@@ -59,10 +74,11 @@ class Contact extends Component {
                   theme={theme}
                 />
                 <br />
+                <br />
               </div>
               <div className="resume-btn-div">
                 <a href="https://consultationwithalan.web.app/" target="_blank">
-                  <button className="button">
+                  <button className="button" style={{ marginTop: 50 }}>
                     Book 1-1 Consultation with Me
                   </button>
                 </a>

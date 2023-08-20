@@ -4,6 +4,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { useHistory } from "react-router-dom";
 import { style } from "glamor";
 import Typewriter from "typewriter-effect";
+import toast, { Toaster } from "react-hot-toast";
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -15,6 +16,18 @@ export default function Greeting(props) {
       boxShadow: `0 5px 15px ${theme.accentBright}`,
     },
   });
+
+  function downloadCV() {
+    const apiPromise = new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve({ data: "okay" });
+      }, 3000);
+    });
+    toast.promise(apiPromise, {
+      loading: "Getting the file.....",
+      success: "Downloading the file.....",
+    });
+  }
 
   return (
     <div>
@@ -45,7 +58,9 @@ export default function Greeting(props) {
           href="https://firebasestorage.googleapis.com/v0/b/alanbinu-stripe.appspot.com/o/Alan%20Binu-CV.pdf?alt=media&token=c17cd636-1b59-459b-950a-b1768d52dd75"
           download
         >
-          <button className="button1">Get a copy of my CV</button>
+          <button className="button1" onClick={downloadCV}>
+            Get a copy of my CV
+          </button>
         </a>
         <a href="https://consultationwithalan.web.app/" target="_blank">
           <button className="button">Book 1-1 Consultation with Me</button>
