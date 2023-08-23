@@ -12,6 +12,7 @@ import { greeting, contactPageData } from "../../portfolio.js";
 import ContactForm from "./contactform";
 import Stars from "../../components/Stars/Stars";
 import toast, { Toaster } from "react-hot-toast";
+import AlanBinuCV from "../.././assests/cv/Alan Binu-CV.pdf";
 
 const ContactData = contactPageData.contactSection;
 
@@ -58,7 +59,8 @@ class Contact extends Component {
               <SocialMedia theme={theme} />
               <div className="resume-btn-div">
                 <a
-                  href="https://firebasestorage.googleapis.com/v0/b/alanbinu-stripe.appspot.com/o/Alan%20Binu-CV.pdf?alt=media&token=c17cd636-1b59-459b-950a-b1768d52dd75"
+                  href={AlanBinuCV}
+                  //href="https://firebasestorage.googleapis.com/v0/b/alanbinu-stripe.appspot.com/o/Alan%20Binu-CV.pdf?alt=media&token=c17cd636-1b59-459b-950a-b1768d52dd75"
                   download
                 >
                   <button className="button1" onClick={downloadCV}>

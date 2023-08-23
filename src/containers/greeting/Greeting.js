@@ -5,6 +5,7 @@ import { useHistory } from "react-router-dom";
 import { style } from "glamor";
 import Typewriter from "typewriter-effect";
 import toast, { Toaster } from "react-hot-toast";
+import AlanBinuCV from "../.././assests/cv/Alan Binu-CV.pdf";
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -55,7 +56,8 @@ export default function Greeting(props) {
       <SocialMedia />
       <div className="portfolio-repo-btn-div">
         <a
-          href="https://firebasestorage.googleapis.com/v0/b/alanbinu-stripe.appspot.com/o/Alan%20Binu-CV.pdf?alt=media&token=c17cd636-1b59-459b-950a-b1768d52dd75"
+          href={AlanBinuCV}
+          // href="https://firebasestorage.googleapis.com/v0/b/alanbinu-stripe.appspot.com/o/Alan%20Binu-CV.pdf?alt=media&token=c17cd636-1b59-459b-950a-b1768d52dd75"
           download
         >
           <button className="button1" onClick={downloadCV}>
