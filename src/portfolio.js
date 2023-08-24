@@ -615,7 +615,7 @@ const projects = {
       name: "Spring Boot Advanced Projects",
       live: "",
       url: "https://github.com/AlanBinu007/Spring-Boot-Advanced-Projects",
-      tech: "Technologies Used : Thymeleaf,Spring Cloud,Spring Security,PostgreSql,MySql,MongoDb,Junit,H2-Database,Logging,Logging and Logout,Swagger 2,API Calls,REST API,SLF4J,LOG4J2,Jersey, ActiveMQ",
+      tech: "Technologies Used : Thymeleaf, Spring Cloud, Spring Security,  PostgreSql, MySql, MongoDb, Junit, H2-Database, Logging, Logging and Logout, Swagger 2, API Calls, REST API, SLF4J, LOG4J2, Jersey, ActiveMQ",
       description:
         "💖💖Here we are maked almost all types of Spring Boot Applications that you suggested via linkedin/Gmail, If you are looking something that is out of the box then just ping me in linkedin or mail with your required project i will make the template/full project for you for free",
       languages: [
@@ -854,32 +854,7 @@ const projects = {
         },
       ],
     },
-    {
-      id: "0",
-      name: "YouTube",
-      url: "https://github.com/AlanBinu007/youtube",
-      live: "https://alanbinu-642df.web.app/",
-      tech: "Technologies Used : ReactJs, HTML, CSS, BootStrap, Material UI, Javacript",
-      description: "YouTube Clone created using React and react-youtube API.",
-      languages: [
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "CSS",
-          iconifyClass: "logos-css-3",
-        },
-        {
-          name: "HTML",
-          iconifyClass: "logos-html-5",
-        },
-      ],
-    },
+
     {
       id: "7",
       name: "Amazon Clone",
@@ -941,181 +916,6 @@ const projects = {
         {
           name: "HTML",
           iconifyClass: "logos-html-5",
-        },
-      ],
-    },
-    {
-      id: "7",
-      name: "SpringBoot Registration Login",
-      url: "https://github.com/AlanBinu007/SpringBootRegistrationLogin",
-      live: "",
-      tech: "Technologies Used : SpringBoot, HTML, CSS, BootStrap, MySql",
-      description:
-        "Created a simple login application using Springboot and we store the user details in Mysql database",
-      languages: [
-        {
-          name: "MySql",
-          iconifyClass: "logos-mysql",
-        },
-        {
-          name: "SpringBoot",
-          iconifyClass: "logos-spring",
-        },
-        {
-          name: "Java",
-          iconifyClass: "logos-java",
-        },
-      ],
-    },
-    {
-      id: "7",
-      name: "Spring Security with JWT",
-      url: "https://github.com/AlanBinu007/Spring-Security-JWT",
-      live: "",
-      tech: "Technologies Used : SpringBoot, HTML, CSS, BootStrap",
-      description:
-        "Here we are implemented the spring security to a simple application with (JSON Web Token) JWT",
-      languages: [
-        {
-          name: "HTML",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "SpringBoot",
-          iconifyClass: "logos-spring",
-        },
-        {
-          name: "Java",
-          iconifyClass: "logos-java",
-        },
-      ],
-    },
-    {
-      id: "7",
-      name: "Covid-19 tracker Using SpringBoot",
-      url: "https://github.com/AlanBinu007/Covid-19-Spring",
-      live: "",
-      tech: "Technologies Used : SpringBoot, HTML, CSS, BootStrap, Material UI",
-      description: "Simple Covid-19tracking software using spring boot",
-      languages: [
-        {
-          name: "SpringBoot",
-          iconifyClass: "logos-spring",
-        },
-        {
-          name: "Java",
-          iconifyClass: "logos-java",
-        },
-      ],
-    },
-    {
-      id: "2",
-      name: "Full Functional Online Student Management System",
-      url: " ",
-      live: "",
-
-      tech: "Technologies Used : Java, HTML, CSS, BootStrap, javaScript",
-      description:
-        "My BCA final year project that i Published in my college itself. Got so many appreciation",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-java",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-php",
-        },
-        {
-          name: "javascript",
-          iconifyClass: "logos-javascript",
-        },
-      ],
-    },
-    {
-      id: "12",
-      name: "Face Dectection System",
-      url: "",
-      live: "",
-      tech: "Technologies Used : Python, Tensorflow, Computer vision",
-      description:
-        "A Simple Face-Detion App using Python Computer Vison and Tensorflow.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-      ],
-    },
-    {
-      id: "13",
-      name: "ToDo-App",
-      url: "",
-      tech: "Technologies Used : SpringBoot, ReactJs, javaScript",
-      live: "",
-      description:
-        "A simple ToDo application using REST API with the facility to Add, Remove, Edit and  Get Methods",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "Spring",
-          iconifyClass: "logos-spring",
-        },
-      ],
-    },
-    {
-      id: "3",
-      name: "E-Commerce Applicatoin",
-      url: "https://github.com/AlanBinu007/e_commerce_app",
-      live: "https://alanbinu-commerce.web.app/",
-
-      tech: "Technologies Used : ReactJs, HTML, CSS, BootStrap, Material UI",
-      description:
-        "An E-Commerce Application created using ReactJs and famous commercejs as REST API methods",
-      languages: [
-        {
-          name: "React",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-      ],
-    },
-    {
-      id: "4",
-      name: "Full Stack Social Media App",
-      url: "https://github.com/AlanBinu007/MERN-Sample-Social-Media-App",
-      tech: "Technologies Used : ReactJs, MongoDb, ExpressJs, NodeJs",
-      live: "",
-      description:
-        "It is a full stack MERN(MongoDb, ExpressJs, ReactJs, Node) Sociak Media Application that multilple user can be able to login at a same time and also able to create their post",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "React",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "MongoDB",
-          iconifyClass: "logos-mongodb",
         },
       ],
     },
