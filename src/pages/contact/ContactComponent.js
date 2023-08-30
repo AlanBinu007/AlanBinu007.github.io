@@ -24,6 +24,9 @@ const GoogleMapStyle = {
 };
 
 class Contact extends Component {
+  componentDidMount() {
+    document.body.style.zoom = "90%";
+  }
   render() {
     const theme = this.props.theme;
 

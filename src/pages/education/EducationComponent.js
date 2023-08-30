@@ -28,6 +28,9 @@ import scrum from "../../images/scrum.png";
 import Stars from "../../components/Stars/Stars";
 
 class Education extends Component {
+  componentDidMount() {
+    document.body.style.zoom = "90%";
+  }
   render() {
     const theme = this.props.theme;
     return (

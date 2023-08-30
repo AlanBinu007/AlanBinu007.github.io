@@ -9,8 +9,13 @@ import ProjectsImg from "./ProjectsImg";
 import { style } from "glamor";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import Stars from "../../components/Stars/Stars";
+import { useEffect } from "react";
 
 function Projects(props) {
+  useEffect(() => {
+    document.body.style.zoom = "90%";
+  }, []);
+
   const theme = props.theme;
 
   const styles = style({

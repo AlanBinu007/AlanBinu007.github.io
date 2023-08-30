@@ -11,7 +11,7 @@ import toast, { Toaster } from "react-hot-toast";
 
 function App() {
   useEffect(() => {
-    document.body.style.zoom = "90%";
+    // document.body.style.zoom = "90%";
     if (settings.googleTrackingID) {
       ReactGA.initialize(settings.googleTrackingID, {
         testMode: process.env.NODE_ENV === "test",

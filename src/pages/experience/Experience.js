@@ -11,6 +11,9 @@ import Github from "../../containers/github/github";
 import Stars from "../../components/Stars/Stars";
 
 class Experience extends Component {
+  componentDidMount() {
+    document.body.style.zoom = "90%";
+  }
   render() {
     const theme = this.props.theme;
     return (

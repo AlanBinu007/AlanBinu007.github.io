@@ -7,6 +7,9 @@ import "./blog.css";
 import Stars from "../../components/Stars/Stars";
 
 class Opensource extends Component {
+  componentDidMount() {
+    document.body.style.zoom = "90%";
+  }
   render() {
     return (
       <div className="opensource-main">

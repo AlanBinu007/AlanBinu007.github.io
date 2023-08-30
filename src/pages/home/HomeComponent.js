@@ -10,8 +10,10 @@ import Greeting from "../../containers/greeting/Greeting";
 import Stars from "../../components/Stars/Stars";
 
 class Home extends Component {
+  componentDidMount() {
+    document.body.style.zoom = "90%";
+  }
   render() {
-    console.log(this.props.theme);
     const theme = this.props.theme;
 
     return (
