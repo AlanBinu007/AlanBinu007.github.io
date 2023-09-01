@@ -218,6 +218,29 @@ class ExperienceAccordion extends Component {
 
                 <div class="timeline-header">
                   <h3>
+                    <i clas="vv">Consultant</i>
+                  </h3>
+                  <i>June 2021 to till now</i>
+                  <br />
+                </div>
+
+                <div class="timeline-content">
+                  <h3>
+                    <i>1 to 1 Consultation</i>
+                  </h3>
+                  Providing guidance and support to students can greatly enhance
+                  their chances of succeeding in their chosen careers
+                  <br />
+                  <br />
+                </div>
+              </div>
+              <div class="timeline-block">
+                <div class="timeline-ico">
+                  <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                </div>
+
+                <div class="timeline-header">
+                  <h3>
                     <i clas="vv">Participants</i>
                   </h3>
                   <i>June 2021</i>

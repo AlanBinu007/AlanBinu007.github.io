@@ -20,7 +20,6 @@ const GoogleMapStyle = {
   border: "green",
   borderRadius: 20,
   border: 30,
-  paddingLeft: 10,
 };
 
 class Contact extends Component {
@@ -67,7 +66,7 @@ class Contact extends Component {
                   download
                 >
                   <button className="button1" onClick={downloadCV}>
-                    Download My Resume
+                    Download My CV
                   </button>
                 </a>
               </div>
