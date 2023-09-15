@@ -93,7 +93,6 @@ class Education extends Component {
                   <br />
                   IBM Certified Professional Back-End Developer.
                 </p>
-                <br />
                 <p
                   className="experience-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
@@ -103,7 +102,6 @@ class Education extends Component {
                     BUDCPWS7WFKM
                   </span>
                 </p>
-                <br />
                 <img src={verified} style={{ height: 150 }} />
               </div>
               <span class="ribbon3">
@@ -122,7 +120,6 @@ class Education extends Component {
                 >
                   Meta Certified Professional Back-End Developer.
                 </p>
-                <br />
                 <p
                   className="experience-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
@@ -132,7 +129,6 @@ class Education extends Component {
                     QDRP9HJQMFS6
                   </span>
                 </p>
-                <br />
                 <img src={verified} style={{ height: 150 }} />
               </div>
               <span class="ribbon3">
