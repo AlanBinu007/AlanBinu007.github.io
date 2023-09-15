@@ -3,7 +3,6 @@ import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { useHistory } from "react-router-dom";
 import { style } from "glamor";
-import Typewriter from "typewriter-effect";
 import toast, { Toaster } from "react-hot-toast";
 import AlanBinuCV from "../.././assests/cv/Alan Binu-CV.pdf";
 
@@ -32,40 +31,16 @@ export default function Greeting(props) {
 
   return (
     <div>
-      {/* <h1 class="h11">Hello World </h1>
-      <p className="greeting-text-p">I am Alan Binu</p>
-      <p className="greeting-text-p3">
-        <Typewriter
-          options={{
-            strings: [
-              "<b>Core Java Developer</b>",
-              "<b>Spring Boot Developer</b>",
-              "<b>Passionate Blockchain Enthusiast</b>",
-              "<b>Committed Open Source Contributor</b>",
-              "<b>Effective Problem Solver</b>",
-            ],
-            autoStart: true,
-            loop: true,
-            deleteSpeed: 50,
-          }}
-        />
-      </p>
-      <h4 class="i1">
-        <p className="greeting-text-p2">Meta & IBM Certified Back-End Developer</p>
-      </h4>
-      <h4 class="i1">
-        <p className="greeting-text-p1">Master's degree in Computer Science</p>
-      </h4> */}
-
       <div className="content-tertiary">
         <p>
+          <br/>
           <span>✌🏻</span> Hi there! I'm Alan Binu
         </p>
       </div>
       <div className="content-primary">
         <h1>
-          A <span>Meta & IBM Certified Back-End Developer</span>. Master in{" "}
-          <span>Core Java</span> & <span>Spring Boot</span> with Solid{" "}
+          I am a <span>IBM</span> and  <span>Meta Certified Back-End Developer</span>.
+          Master in <span>Core Java </span> & <span> Spring Boot</span> with Solid{" "}
           <span>MSc</span> fundamentals.
         </h1>
       </div>

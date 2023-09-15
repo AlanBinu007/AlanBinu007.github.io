@@ -262,12 +262,12 @@
 	 font-weight: 300;
 	 /* text-transform: capitalize; */
 	 letter-spacing: 0.02em;
-	 font-size: 10;
+	 font-size: 2.8rem;
 
 }
  .content-primary h1 span {
 	 font-family: "Cyborg";
-	 font-size: 30;
+	 font-size: 3.5rem;
 	 color: #14e956;
 	 text-shadow: 3px 3px 0 #1f2127, -1px -1px 0 #1f2127, 1px -1px 0 #1f2127, -1px 1px 0 #1f2127, 1px 1px 0 #1f2127;
 }
