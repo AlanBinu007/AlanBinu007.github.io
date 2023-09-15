@@ -136,10 +136,9 @@
 .box {
   flex: 1;
   padding: 20px;
-  margin: 10px;
+  margin: 40px;
   border: 1px solid rgb(255, 255, 255);
   border-radius: 25px;
-
   position: relative;
   margin-bottom: 30px;
   background-size: cover;
@@ -289,7 +288,7 @@
 .ribbon3:after {
   height: 0;
   width: 0;
-  right: -14.5px;
+  right: -14px;
   border-top: 25px solid transparent;
   border-bottom: 25px solid transparent;
   border-left: 15px solid #59324C;
