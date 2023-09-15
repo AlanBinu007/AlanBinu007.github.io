@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.aa59eca5.chunk.css",
-    "main.js": "/static/js/main.d8475374.chunk.js",
-    "main.js.map": "/static/js/main.d8475374.chunk.js.map",
+    "main.css": "/static/css/main.00a9ee3b.chunk.css",
+    "main.js": "/static/js/main.7b19c8b2.chunk.js",
+    "main.js.map": "/static/js/main.7b19c8b2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1d91fabb.js",
     "runtime-main.js.map": "/static/js/runtime-main.1d91fabb.js.map",
-    "static/js/2.97af1bb5.chunk.js": "/static/js/2.97af1bb5.chunk.js",
-    "static/js/2.97af1bb5.chunk.js.map": "/static/js/2.97af1bb5.chunk.js.map",
+    "static/js/2.dd548242.chunk.js": "/static/js/2.dd548242.chunk.js",
+    "static/js/2.dd548242.chunk.js.map": "/static/js/2.dd548242.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.aa59eca5.chunk.css.map": "/static/css/main.aa59eca5.chunk.css.map",
-    "static/js/2.97af1bb5.chunk.js.LICENSE.txt": "/static/js/2.97af1bb5.chunk.js.LICENSE.txt",
+    "static/css/main.00a9ee3b.chunk.css.map": "/static/css/main.00a9ee3b.chunk.css.map",
+    "static/js/2.dd548242.chunk.js.LICENSE.txt": "/static/js/2.dd548242.chunk.js.LICENSE.txt",
     "static/media/1.ce8691f2.png": "/static/media/1.ce8691f2.png",
     "static/media/10.9bebbcaa.png": "/static/media/10.9bebbcaa.png",
     "static/media/11.7cd2bebf.png": "/static/media/11.7cd2bebf.png",
@@ -30,6 +30,7 @@
     "static/media/9.39e56f80.png": "/static/media/9.39e56f80.png",
     "static/media/index.css": "/static/media/Montserrat-Regular.3cd78665.ttf",
     "static/media/Alan Binu-CV.3565cf9a.pdf": "/static/media/Alan Binu-CV.3565cf9a.pdf",
+    "static/media/Verified.7798db3b.png": "/static/media/Verified.7798db3b.png",
     "static/media/a.e34e4777.png": "/static/media/a.e34e4777.png",
     "static/media/ai.8e340b8e.jpg": "/static/media/ai.8e340b8e.jpg",
     "static/media/b.3722f8da.png": "/static/media/b.3722f8da.png",
@@ -39,8 +40,9 @@
     "static/media/datascience.f2a5421e.png": "/static/media/datascience.f2a5421e.png",
     "static/media/e.46a91899.png": "/static/media/e.46a91899.png",
     "static/media/f.6fc7f67b.png": "/static/media/f.6fc7f67b.png",
-    "static/media/all.css": "/static/media/fa-solid-900.decfdcb6.svg",
+    "static/media/all.css": "/static/media/fa-solid-900.d93bcbbb.eot",
     "static/media/github.828bc91c.png": "/static/media/github.828bc91c.png",
+    "static/media/ibm1.de904e9e.png": "/static/media/ibm1.de904e9e.png",
     "static/media/ignou1.f1563b20.png": "/static/media/ignou1.f1563b20.png",
     "static/media/java.f0423b39.png": "/static/media/java.f0423b39.png",
     "static/media/linkedin.02278407.png": "/static/media/linkedin.02278407.png",
@@ -55,6 +57,7 @@
     "static/media/m7.54011b3c.png": "/static/media/m7.54011b3c.png",
     "static/media/m8.279030b3.png": "/static/media/m8.279030b3.png",
     "static/media/m9.111cabba.png": "/static/media/m9.111cabba.png",
+    "static/media/meta.4e3f9ddd.png": "/static/media/meta.4e3f9ddd.png",
     "static/media/mg.0e0c36b5.png": "/static/media/mg.0e0c36b5.png",
     "static/media/prm.0b98ae32.png": "/static/media/prm.0b98ae32.png",
     "static/media/react.de34dc40.png": "/static/media/react.de34dc40.png",
@@ -66,8 +69,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1d91fabb.js",
-    "static/js/2.97af1bb5.chunk.js",
-    "static/css/main.aa59eca5.chunk.css",
-    "static/js/main.d8475374.chunk.js"
+    "static/js/2.dd548242.chunk.js",
+    "static/css/main.00a9ee3b.chunk.css",
+    "static/js/main.7b19c8b2.chunk.js"
   ]
 }
