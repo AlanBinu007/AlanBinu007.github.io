@@ -25,6 +25,9 @@ import m9 from "../../images/m9.png";
 import m10 from "../../images/m10.png";
 import m11 from "../../images/m11.png";
 import scrum from "../../images/scrum.png";
+import meta from "../../images/meta.png";
+import ibm from "../../images/ibm1.png";
+import verified from "../../images/Verified.png";
 import Stars from "../../components/Stars/Stars";
 
 class Education extends Component {
@@ -47,7 +50,7 @@ class Education extends Component {
               </div>
               <div className="heading-text-div">
                 <h1 className="heading-text">
-                  Education
+                  Education & Archivements
                   <br />
                 </h1>
                 <p
@@ -69,9 +72,77 @@ class Education extends Component {
               </div>
             </div>
           </Fade>
+          <br />
+          <br />
+          <h3 className="heading-sub-text-new" style={{ fontSize: 40 }}>
+            <h1>
+              <span>Accredited as a Certified Professional</span>
+            </h1>
+          </h3>
+          <div class="containerCer">
+            <div class="box">
+              <span class="ribbon1">
+                <span>Approx 12 months at 10 hours a week to complete</span>
+              </span>
+              <img src={ibm} alt="IBM" />
+              <div class="text">
+                <p
+                  className="experience-header-detail-text subTitle"
+                  style={{ color: theme.secondaryText, fontSize: 25 }}
+                >
+                  <br />
+                  IBM Certified Professional Back-End Developer.
+                </p>
+                <br />
+                <p
+                  className="experience-header-detail-text subTitle"
+                  style={{ color: theme.secondaryText }}
+                >
+                  Certificte No :{" "}
+                  <span style={{ color: "white", fontWeight: "bold" }}>
+                    BUDCPWS7WFKM
+                  </span>
+                </p>
+                <br />
+                <img src={verified} style={{ height: 150 }} />
+              </div>
+              <span class="ribbon3">
+                <span>$499 USD</span>
+              </span>
+            </div>
+            <div class="box">
+              <span class="ribbon1">
+                <span>Approx 8 months at 6 hours a week to complete</span>
+              </span>
+              <img src={meta} alt="Meta" style={{ height: 168 }} />
+              <div class="text">
+                <p
+                  className="experience-header-detail-text subTitle"
+                  style={{ color: theme.secondaryText, fontSize: 25 }}
+                >
+                  Meta Certified Professional Back-End Developer.
+                </p>
+                <br />
+                <p
+                  className="experience-header-detail-text subTitle"
+                  style={{ color: theme.secondaryText }}
+                >
+                  Certificte No :{" "}
+                  <span style={{ color: "white", fontWeight: "bold" }}>
+                    QDRP9HJQMFS6
+                  </span>
+                </p>
+                <br />
+                <img src={verified} style={{ height: 150 }} />
+              </div>
+              <span class="ribbon3">
+                <span>$449 USD</span>
+              </span>
+            </div>
+          </div>
           <center>
             <h3 className="heading-sub-text">
-              Verified Digital Archivements
+              Verified Digital Badges
               <br />
               <br />
             </h3>
@@ -124,7 +195,7 @@ class Education extends Component {
           </center>
           <center>
             <h3 className="heading-sub-text">
-              Verified Digital Badges
+              Verified Digital Badges from Azure
               <br />
               <br />
             </h3>

@@ -12,10 +12,11 @@ class Educations extends Component {
         <div className="educations-header-div">
           <Fade bottom duration={2000} distance="20px">
             <h1 className="educations-header">
-         My Education
+            My Educational Journey
             </h1>
           </Fade>
         </div>
+        
         <div className="educations-body-div">
           {degrees.degrees.map((degree) => {
             return <DegreeCard degree={degree} theme={theme} />;

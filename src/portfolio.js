@@ -611,9 +611,10 @@ const contactPageData = {
 const projects = {
   data: [
     {
-      id: "0",
+      id: "1",
       name: "Spring Boot Advanced Projects",
       live: "",
+      image:"https://raw.githubusercontent.com/DanMathew7/images/main/Github_Project1.png",
       url: "https://github.com/AlanBinu007/Spring-Boot-Advanced-Projects",
       tech: "Technologies Used : Thymeleaf, Spring Cloud, Spring Security,  PostgreSql, MySql, MongoDb, Junit, H2-Database, Logging, Logging and Logout, Swagger 2, API Calls, REST API, SLF4J, LOG4J2, Jersey, ActiveMQ",
       description:
@@ -630,9 +631,10 @@ const projects = {
       ],
     },
     {
-      id: "0",
+      id: "2",
       name: "ReactJs & Spring Boot Full Stack Development",
       live: "",
+      image:"https://raw.githubusercontent.com/DanMathew7/images/main/Github_Project2.png",
       url: "https://github.com/AlanBinu007/ReactJs-SpringBoot-Full-Stack-Development",
       tech: "Technologies Used : ReactJs, Spring Boot, Spring Security, PostgreSql, MySql, REST API",
       description:
@@ -678,8 +680,9 @@ const projects = {
     },
 
     {
-      id: "0",
+      id: "3",
       name: "Real Time Chat Application",
+      image:"https://raw.githubusercontent.com/DanMathew7/images/main/Github_Project3.png",
       url: "https://github.com/AlanBinu007/Realtime-Chat-Application-ReactJs",
       live: "https://alanbinu-mychat.firebaseapp.com/",
       tech: "Technologies Used : ReactJs, HTML, CSS, BootStrap, Material UI, Javacript",
@@ -704,49 +707,50 @@ const projects = {
         },
       ],
     },
+    // {
+    //   id: "0",
+    //   name: "Live Interview Video Conference Application with Facecam and Mic",
+    //   url: "https://github.com/AlanBinu007/Online-Live-Video-Chat-Application-for-Interview-purposes",
+    //   live: "https://alanbinu-video-conference.web.app/",
+    //   tech: "Technologies Used : ReactJs, HTML, CSS, BootStrap, Material UI, Javacript, NodeJs, ExpressJs and SASS",
+    //   description:
+    //     "A clean and full functional live video conference app for one to one interview.It have live chat, Notes and Live Editor facility",
+    //   languages: [
+    //     {
+    //       name: "ReactJS",
+    //       iconifyClass: "logos-react",
+    //     },
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //     {
+    //       name: "CSS",
+    //       iconifyClass: "logos-css-3",
+    //     },
+    //     {
+    //       name: "HTML",
+    //       iconifyClass: "logos-html-5",
+    //     },
+    //     {
+    //       name: "SASS",
+    //       iconifyClass: "logos-sass",
+    //     },
+    //     {
+    //       name: "NODEJS",
+    //       iconifyClass: "logos-nodejs",
+    //     },
+    //     {
+    //       name: "EXPRESSJS",
+    //       iconifyClass: "logos-express",
+    //     },
+    //   ],
+    // },
     {
-      id: "0",
-      name: "Live Interview Video Conference Application with Facecam and Mic",
-      url: "https://github.com/AlanBinu007/Online-Live-Video-Chat-Application-for-Interview-purposes",
-      live: "https://alanbinu-video-conference.web.app/",
-      tech: "Technologies Used : ReactJs, HTML, CSS, BootStrap, Material UI, Javacript, NodeJs, ExpressJs and SASS",
-      description:
-        "A clean and full functional live video conference app for one to one interview.It have live chat, Notes and Live Editor facility",
-      languages: [
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "CSS",
-          iconifyClass: "logos-css-3",
-        },
-        {
-          name: "HTML",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "SASS",
-          iconifyClass: "logos-sass",
-        },
-        {
-          name: "NODEJS",
-          iconifyClass: "logos-nodejs",
-        },
-        {
-          name: "EXPRESSJS",
-          iconifyClass: "logos-express",
-        },
-      ],
-    },
-    {
-      id: "0",
+      id: "4",
       name: "Covid-19 Tracker",
       url: "https://github.com/AlanBinu007/React-Covid19-Tracker",
+      image:"https://raw.githubusercontent.com/DanMathew7/images/main/Github_Project4.png",
       live: "https://alanbinu-covid19-tracker.web.app/",
       tech: "Technologies Used : ReactJs, HTML, CSS, BootStrap, Material UI, Javacript, NodeJs, ExpressJs and SASS",
       description:
@@ -770,41 +774,42 @@ const projects = {
         },
       ],
     },
+    // {
+    //   id: "0",
+    //   name: "Spotify Clone",
+    //   url: "https://github.com/AlanBinu007/spotify-clone",
+    //   live: "https://alanbinu-spotify.web.app/",
+    //   tech: "Technologies Used : ReactJs, HTML, CSS, BootStrap, Material UI, Javacript",
+    //   description: "Simple Clone for Spotify using React",
+    //   languages: [
+    //     {
+    //       name: "ReactJS",
+    //       iconifyClass: "logos-react",
+    //     },
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //     {
+    //       name: "CSS",
+    //       iconifyClass: "logos-css-3",
+    //     },
+    //     {
+    //       name: "HTML",
+    //       iconifyClass: "logos-html-5",
+    //     },
+    //     {
+    //       name: "Tailwind CSS",
+    //       iconifyClass: "tailwindcss-icon",
+    //     },
+    //   ],
+    // },
     {
-      id: "0",
-      name: "Spotify Clone",
-      url: "https://github.com/AlanBinu007/spotify-clone",
-      live: "https://alanbinu-spotify.web.app/",
-      tech: "Technologies Used : ReactJs, HTML, CSS, BootStrap, Material UI, Javacript",
-      description: "Simple Clone for Spotify using React",
-      languages: [
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "CSS",
-          iconifyClass: "logos-css-3",
-        },
-        {
-          name: "HTML",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "Tailwind CSS",
-          iconifyClass: "tailwindcss-icon",
-        },
-      ],
-    },
-    {
-      id: "0",
+      id: "5",
       name: "Netflix Clone",
       url: "https://github.com/AlanBinu007/netflix_clone",
       live: "https://alanbinu-netflix.web.app/",
+      image:"https://raw.githubusercontent.com/DanMathew7/images/main/Github_Project5.png",
       tech: "Technologies Used : ReactJs, HTML, CSS, BootStrap, Material UI, Javacript",
       description:
         "A clean and full customizable clean Netflix Clone using React and tmdb API.",
@@ -827,39 +832,40 @@ const projects = {
         },
       ],
     },
-    {
-      id: "0",
-      name: "LinkedIn Clone",
-      url: "https://github.com/AlanBinu007/Linkedin-Clone-React",
-      live: "https://alanbinu-linkedin.web.app/",
-      tech: "Technologies Used : ReactJs, HTML, CSS, BootStrap, Material UI, Javacript",
-      description:
-        "A clean and clean LinkedIn Clone using React with Login and Add post Feature.",
-      languages: [
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "CSS",
-          iconifyClass: "logos-css-3",
-        },
-        {
-          name: "HTML",
-          iconifyClass: "logos-html-5",
-        },
-      ],
-    },
+    // {
+    //   id: "0",
+    //   name: "LinkedIn Clone",
+    //   url: "https://github.com/AlanBinu007/Linkedin-Clone-React",
+    //   live: "https://alanbinu-linkedin.web.app/",
+    //   tech: "Technologies Used : ReactJs, HTML, CSS, BootStrap, Material UI, Javacript",
+    //   description:
+    //     "A clean and clean LinkedIn Clone using React with Login and Add post Feature.",
+    //   languages: [
+    //     {
+    //       name: "ReactJS",
+    //       iconifyClass: "logos-react",
+    //     },
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //     {
+    //       name: "CSS",
+    //       iconifyClass: "logos-css-3",
+    //     },
+    //     {
+    //       name: "HTML",
+    //       iconifyClass: "logos-html-5",
+    //     },
+    //   ],
+    // },
 
     {
-      id: "7",
+      id: "6",
       name: "Amazon Clone",
       url: "https://github.com/AlanBinu007/amazone_clone_react",
       live: "https://alanbinu-ecommerce.web.app/",
+      image:"https://raw.githubusercontent.com/DanMathew7/images/main/Github_Project6.png",
       tech: "Technologies Used : ReactJs, HTML, CSS, BootStrap, Material UI, Javacript",
       description:
         "Here i created an full functional Amazon clone application using React",
@@ -883,6 +889,7 @@ const projects = {
       name: "Covid-19 tracker Using Spring Boot",
       url: "https://github.com/AlanBinu007/Covid-19-Spring",
       live: "",
+      image:"https://raw.githubusercontent.com/DanMathew7/images/main/Github_Project7.png",
       tech: "Technologies Used : SpringBoot, HTML, CSS, BootStrap, Javacript",
       description: "Simple Covid-19tracking software using spring boot",
       languages: [
@@ -898,9 +905,10 @@ const projects = {
     },
     {
       id: "7",
-      name: "Spring Empooyee CURD Application",
+      name: "Spring Employee CURD Application",
       url: "https://github.com/AlanBinu007/Spring-Employee-CURD",
       live: "",
+      image:"https://raw.githubusercontent.com/DanMathew7/images/main/Github_Project8.png",
       tech: "Technologies Used : SpringBoot, HTML, CSS, BootStrap, Material UI",
       description:
         "Here we used spring boot as back-end and thymeleaf as  web site template. The app contain creation, Deletion, Ediiting and fetching the employee details",
@@ -924,7 +932,7 @@ const projects = {
 const reactnative = {
   data: [
     {
-      id: "0",
+      id: "8",
       name: "Live Interview Video Conference Application with Facecam and Mic",
       url: "https://github.com/AlanBinu007/Online-Live-Video-Chat-Application-for-Interview-purposes",
       live: "https://alanbinu-video-conference.web.app/",

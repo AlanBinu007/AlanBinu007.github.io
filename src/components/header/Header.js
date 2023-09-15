@@ -18,10 +18,10 @@ function Header(props) {
               {greeting.logo_name}
             </span>
           </span>
-          <input className="menu-btn" type="checkbox" id="menu-btn" />
+          {/* <input className="menu-btn" type="checkbox" id="menu-btn" />
           <label className="menu-icon" htmlFor="menu-btn">
             <span className="navicon"></span>
-          </label>
+          </label> */}
           <ul className="menu">
             <li>
               <NavLink
@@ -42,7 +42,7 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Education
+                Education & Archivements
               </NavLink>
             </li>
             <li>

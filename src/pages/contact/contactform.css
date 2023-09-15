@@ -27,7 +27,9 @@
   display: block;
   width: 100%;
   box-sizing: border-box;
-  margin: 16px 0;
+  /* margin: 16px 0; */
+  /* margin-top: 20px; */
+  margin-bottom: 31px;
   border: 0;
   background: rgb(31, 30, 30);
   padding: 20px 40px;

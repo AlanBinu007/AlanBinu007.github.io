@@ -32,7 +32,7 @@ export default function Greeting(props) {
 
   return (
     <div>
-      <h1 class="h11">Hello World </h1>
+      {/* <h1 class="h11">Hello World </h1>
       <p className="greeting-text-p">I am Alan Binu</p>
       <p className="greeting-text-p3">
         <Typewriter
@@ -51,8 +51,25 @@ export default function Greeting(props) {
         />
       </p>
       <h4 class="i1">
-        <b className="greeting-text-p1">Master's degree in Computer Science</b>
+        <p className="greeting-text-p2">Meta & IBM Certified Back-End Developer</p>
       </h4>
+      <h4 class="i1">
+        <p className="greeting-text-p1">Master's degree in Computer Science</p>
+      </h4> */}
+
+      <div className="content-tertiary">
+        <p>
+          <span>✌🏻</span> Hi there! I'm Alan Binu
+        </p>
+      </div>
+      <div className="content-primary">
+        <h1>
+          A <span>Meta & IBM Certified Back-End Developer</span>. Master in{" "}
+          <span>Core Java</span> & <span>Spring Boot</span> with Solid{" "}
+          <span>MSc</span> fundamentals.
+        </h1>
+      </div>
+
       <SocialMedia />
       <div className="portfolio-repo-btn-div">
         <a

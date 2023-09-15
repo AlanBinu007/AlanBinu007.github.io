@@ -126,6 +126,7 @@
   margin: 2px 5px 20px 10px;
   transition: all 0.2s ease-in-out;
   color: #ffffff;
+  font-size: larger;
 }
 
 .homei:hover {
@@ -138,6 +139,7 @@
   margin: 2px 5px 20px;
   transition: all 0.2s ease-in-out;
   color: #ffffff;
+  font-size: larger;
 }
 
 .ec:hover {
@@ -150,6 +152,7 @@
   margin: 2px 5px 20px;
   transition: all 0.2s ease-in-out;
   color: #ffffff;
+  font-size: larger;
 }
 
 .xp:hover {
@@ -162,6 +165,7 @@
   margin: 2px 5px 20px;
   transition: all 0.2s ease-in-out;
   color: #ffffff;
+  font-size: larger;
 }
 
 .projects:hover {
@@ -174,6 +178,7 @@
   margin: 2px 5px 20px;
   transition: all 0.2s ease-in-out;
   color: #ffffff;
+  font-size: larger;
 }
 
 .cr:hover {

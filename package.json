@@ -27,7 +27,6 @@
     "styled-components": "^5.2.3",
     "styletron-engine-atomic": "^1.4.7",
     "styletron-react": "^6.0.1",
-    "typewriter-effect": "^2.20.1",
     "web-vitals": "^1.1.1"
   },
   "scripts": {

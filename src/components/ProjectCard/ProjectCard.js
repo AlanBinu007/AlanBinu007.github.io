@@ -4,6 +4,7 @@ import "./ProjectCard.css";
 import { Fade } from "react-reveal";
 import { style } from "glamor";
 
+
 export default function ProjectCard({ repo, theme }) {
   const styles = style({
     color: "rgb(88, 96, 105)",
@@ -43,7 +44,7 @@ export default function ProjectCard({ repo, theme }) {
             <p className="repo-description" style={{ color: theme.text }}>
               {repo.tech}
             </p>
-
+            <img src={repo.image} />
             <a href={repo.url} target="_blank" rel="noopener noreferrer">
               <div
                 className="visit-btn"
@@ -94,6 +95,7 @@ export default function ProjectCard({ repo, theme }) {
             <p className="repo-description" style={{ color: theme.text }}>
               {repo.tech}
             </p>
+            <img src={repo.image} />
             <a href={repo.url} target="_blank" rel="noopener noreferrer">
               <div
                 className="visit-btn"
@@ -106,8 +108,6 @@ export default function ProjectCard({ repo, theme }) {
             </a>
           </div>
         </Fade>
-        <br />
-        <br />
       </div>
     );
   }
