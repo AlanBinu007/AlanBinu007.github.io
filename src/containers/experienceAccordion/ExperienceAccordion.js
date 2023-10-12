@@ -107,16 +107,19 @@ class ExperienceAccordion extends Component {
                     <li className="liclass">
                       Created a React project that help to deploy the Control-M
                       jobs to live within seconds, thus increased the
-                      productivity across the team
+                      productivity across the team using Spring boot, Spring
+                      Security, Hibernate and MySQL.
                     </li>
                     <li className="liclass">
-                      Created a new setup to monitor Httpd server in every 5 min
-                      in Control-m to fix the Apache Server crash notification
+                      Helped the team to solve the Apache Httpd server crash
+                      issue in US region and also created a new J2EE application
+                      to monitor Httpd Apache server in every 5 min in Control-m
+                      and get alerts by mail.
                     </li>
                     <li className="liclass">
                       Successful transformed Control-m jobs fetcher application
-                      from JSP, InfluxDb stack to React, MongoDB which recrease
-                      the latency and increased effectiveness of database.
+                      from JSP, InfluxDb stack to React, MongoDB which cut
+                      latency and increase the overall performance.
                     </li>
                   </ul>
                 </div>

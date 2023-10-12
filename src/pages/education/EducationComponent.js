@@ -139,7 +139,7 @@ class Education extends Component {
             </div>
           </div>
 
-          <div class="containerCer">
+          {/* <div class="containerCer">
             <div class="box">
               <span class="ribbon1">
                 <span>Approx 6 months at 10 hours a week to complete</span>
@@ -198,7 +198,7 @@ class Education extends Component {
                 <span>$499 USD</span>
               </span>
             </div>
-          </div>
+          </div> */}
 
           <center>
             <h3 className="heading-sub-text">
