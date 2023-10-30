@@ -39,9 +39,9 @@ export default function Greeting(props) {
       </div>
       <div className="content-primary">
         <h1>
-          I am a <span>IBM</span> and  <span>Meta Certified Back-End Developer</span>.
-          Master in <span>Core Java </span> & <span> Spring Boot</span> with Solid{" "}
-          <span>MSc</span> fundamentals.
+          I am <span>IBM</span> and  <span>Meta Certified Back-End Developer</span>.
+          I craft Digital Solutions as a <span>Software Engineer</span> 
+          {/* with Solid{" "} <span>MSc</span> fundamentals. */}
         </h1>
       </div>
 
@@ -57,7 +57,7 @@ export default function Greeting(props) {
           </button>
         </a>
         <a href="https://consultationwithalan.web.app/" target="_blank">
-          <button className="button">Book 1-1 Consultation with Me</button>
+          <button className="button">Book a Consultation</button>
         </a>
       </div>
 
