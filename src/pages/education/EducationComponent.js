@@ -115,6 +115,8 @@ class Education extends Component {
                 <span>Approx 8 months at 6 hours a week to complete</span>
               </span>
               <img src={meta} alt="Meta" style={{ height: 168 }} />
+              <br />
+              <br />
               <div class="text">
                 <p
                   className="experience-header-detail-text subTitle"
