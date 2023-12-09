@@ -22,6 +22,65 @@ class ExperienceAccordion extends Component {
 
                 <div class="timeline-header">
                   <h3>
+                    <a href="https://voipbird.com/" target="_blank">
+                      <h5 class="resume-title">Voipbird IT</h5>
+                    </a>
+                  </h3>
+                  <i>November 2023 - till now</i>
+                  <br />
+                  <i>Full Time</i>
+                  <br />
+                </div>
+
+                <div class="timeline-content">
+                  <h3>
+                    <h5 class="resume-title">Software Engineer</h5>
+                  </h3>
+                  <ul className="ulclass">
+                    <li className="liclass">
+                      Working as a Java Full Stack Software Egineer
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="timeline-block">
+                <div class="timeline-ico">
+                  <i class="fa fa-briefcase" aria-hidden="true"></i>
+                </div>
+
+                <div class="timeline-header">
+                  <h3>
+                    <a href="https://voipbird.com/" target="_blank">
+                      <h5 class="resume-title">Career Break</h5>
+                    </a>
+                  </h3>
+                  <i>July 2023 - October 2023</i>
+                  <br />
+
+                  <br />
+                </div>
+
+                <div class="timeline-content">
+                  <h3>
+                    <h5 class="resume-title">Relocation</h5>
+                  </h3>
+                  <ul className="ulclass">
+                    <li className="liclass">
+                      During the specified period, I temporarily paused my
+                      career to facilitate a relocation to Dubai, where I
+                      explored new opportunities and experiences in an
+                      international setting.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="timeline-block">
+                <div class="timeline-ico">
+                  <i class="fa fa-briefcase" aria-hidden="true"></i>
+                </div>
+
+                <div class="timeline-header">
+                  <h3>
                     <a href="https://www.tcs.com" target="_blank">
                       <h5 class="resume-title">Tata Consultancy Services</h5>
                     </a>
