@@ -28,13 +28,14 @@ class ExperienceAccordion extends Component {
                   </h3>
                   <i>November 2023 - till now</i>
                   <br />
-                  <i>Full Time</i>
+                  <i>Dubai, UAE</i>
+                  <br />
                   <br />
                 </div>
 
                 <div class="timeline-content">
                   <h3>
-                    <h5 class="resume-title">Software Engineer</h5>
+                    <h5 class="resume-title">Senior Software Engineer</h5>
                   </h3>
                   <ul className="ulclass">
                     <li className="liclass">
@@ -50,13 +51,13 @@ class ExperienceAccordion extends Component {
 
                 <div class="timeline-header">
                   <h3>
-                    <a href="https://voipbird.com/" target="_blank">
-                      <h5 class="resume-title">Career Break</h5>
-                    </a>
+                    {/* <a href="" target="_blank"> */}
+                    <h5 class="resume-title">Career Break</h5>
+                    {/* </a> */}
                   </h3>
                   <i>July 2023 - October 2023</i>
                   <br />
-
+                  <i>Dubai, UAE</i>
                   <br />
                 </div>
 
@@ -87,7 +88,7 @@ class ExperienceAccordion extends Component {
                   </h3>
                   <i>September 2022 - January 2023</i>
                   <br />
-                  <i>Full Time</i>
+                  <i>Kochi, Kerala, India</i>
                   <br />
                 </div>
 
@@ -129,7 +130,7 @@ class ExperienceAccordion extends Component {
                   </h3>
                   <i>August 2020 - August 2022</i>
                   <br />
-                  <i>Full Time</i>
+                  <i>Pune, Maharashtra, India</i>
                   <br />
                 </div>
 
