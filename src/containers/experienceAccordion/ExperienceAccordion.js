@@ -39,38 +39,36 @@ class ExperienceAccordion extends Component {
                   </h3>
                   <ul className="ulclass">
                     <li className="liclass">
-                      Working as a Java Full Stack Software Egineer
+                      Working as a Java Full Stack Software Engineer
                     </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="timeline-block">
-                <div class="timeline-ico">
-                  <i class="fa fa-briefcase" aria-hidden="true"></i>
-                </div>
-
-                <div class="timeline-header">
-                  <h3>
-                    {/* <a href="" target="_blank"> */}
-                    <h5 class="resume-title">Career Break</h5>
-                    {/* </a> */}
-                  </h3>
-                  <i>July 2023 - October 2023</i>
-                  <br />
-                  <i>Dubai, UAE</i>
-                  <br />
-                </div>
-
-                <div class="timeline-content">
-                  <h3>
-                    <h5 class="resume-title">Relocation</h5>
-                  </h3>
-                  <ul className="ulclass">
                     <li className="liclass">
-                      During the specified period, I temporarily paused my
-                      career to facilitate a relocation to Dubai, where I
-                      explored new opportunities and experiences in an
-                      international setting.
+                      Solely responsible for end-to-end software development
+                      lifecycle, including requirement gathering, system
+                      analysis, development, testing, and deployment.
+                    </li>
+                    <li className="liclass">
+                      Directly engage with clients to identify and troubleshoot
+                      issues, and devise necessary solutions to resolve them.
+                    </li>
+                    <li className="liclass">
+                      Develop tailored software solutions to meet client
+                      specifications, utilizing diverse programming languages
+                      and tools.
+                    </li>
+                    <li className="liclass">
+                      Lead testing procedures to ensure software quality and
+                      functionality, managing deployment and providing support
+                      during transition.
+                    </li>
+                    <li className="liclass">
+                      Continuously monitor system performance, conduct root
+                      cause analysis of production issues, and implement
+                      corrective actions to optimize application performance.
+                    </li>
+                    <li className="liclass">
+                      Document software designs, architecture decisions, and
+                      operational procedures to facilitate knowledge sharing and
+                      ensure maintainability.
                     </li>
                   </ul>
                 </div>
@@ -86,7 +84,7 @@ class ExperienceAccordion extends Component {
                       <h5 class="resume-title">Tata Consultancy Services</h5>
                     </a>
                   </h3>
-                  <i>September 2022 - January 2023</i>
+                  <i>September 2022 - Januvary 2023</i>
                   <br />
                   <i>Kochi, Kerala, India</i>
                   <br />
@@ -94,7 +92,7 @@ class ExperienceAccordion extends Component {
 
                 <div class="timeline-content">
                   <h3>
-                    <h5 class="resume-title">Java Developer</h5>
+                    <h5 class="resume-title">Software Engineer</h5>
                   </h3>
                   <ul className="ulclass">
                     <p>
