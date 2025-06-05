@@ -39,36 +39,55 @@ class ExperienceAccordion extends Component {
                   </h3>
                   <ul className="ulclass">
                     <li className="liclass">
-                      Working as a Java Full Stack Software Engineer
+                      Designed, developed, and deployed 5+ mission-critical
+                      applications to support core business operations,
+                      including CRM systems, auto-dialers, call recording
+                      platforms, and DNCR compliance tools, managing 15+ clients
+                      independently.
                     </li>
                     <li className="liclass">
-                      Solely responsible for end-to-end software development
-                      lifecycle, including requirement gathering, system
-                      analysis, development, testing, and deployment.
+                      Achieved 100% compliance success rate with telecom
+                      regulations by engineering a fully automated DNCR (Do Not
+                      Call Registry) compliance solution.
                     </li>
                     <li className="liclass">
-                      Directly engage with clients to identify and troubleshoot
-                      issues, and devise necessary solutions to resolve them.
+                      Increased client productivity by 25% through the
+                      development and implementation of a custom CRM system
+                      tailored to streamline workflows and customer engagement.
                     </li>
                     <li className="liclass">
-                      Develop tailored software solutions to meet client
-                      specifications, utilizing diverse programming languages
-                      and tools.
+                      Restructured communication flow across 5-10 departments
+                      using a centralized auto-dialer system, leading to a 75%
+                      reduction in paperwork and significantly improved
+                      interdepartmental coordination.
                     </li>
                     <li className="liclass">
-                      Lead testing procedures to ensure software quality and
-                      functionality, managing deployment and providing support
-                      during transition.
+                      Developed secure call recording platforms that
+                      automatically send recordings to banks per regulatory
+                      requirements, reducing manual effort by 10-15% and
+                      enhancing audit efficiency.
                     </li>
                     <li className="liclass">
-                      Continuously monitor system performance, conduct root
-                      cause analysis of production issues, and implement
-                      corrective actions to optimize application performance.
+                      Maintained and optimized the organization’s full technical
+                      infrastructure—including databases, backend services,
+                      frontend applications, API integrations, and CI/CD
+                      pipelines ensuring 99.9% uptime and system reliability.
                     </li>
                     <li className="liclass">
-                      Document software designs, architecture decisions, and
-                      operational procedures to facilitate knowledge sharing and
-                      ensure maintainability.
+                      Acted as the sole technical point of contact, gathering
+                      requirements from stakeholders and clients, translating
+                      them into scalable, high-performance software solutions.
+                    </li>
+                    <li className="liclass">
+                      Led QA efforts including unit, regression, and user
+                      acceptance testing to ensure stable, bug-free releases and
+                      smooth post-deployment operations.
+                    </li>
+                    <li className="liclass">
+                      Created and maintained structured technical documentation
+                      covering system architecture, workflows, and
+                      troubleshooting guides, supporting long-term
+                      maintainability and scalability.
                     </li>
                   </ul>
                 </div>

@@ -5,7 +5,7 @@ import { Row } from "react-bootstrap";
 const Github = () => {
   return (
     <div class="container">
-      <h2 className="project-heading" style={{ paddingRight: "20px" }}>
+      {/* <h2 className="project-heading" style={{ paddingRight: "20px" }}>
         <center>
           <strong className="yellow">My Contributions to Open Source</strong>
         </center>
@@ -16,10 +16,7 @@ const Github = () => {
         blockMargin={5}
         color="#6102ce"
         fontSize={16}
-      />
-      <br />
-      <br />
-      <br />
+      /> */}
     </div>
   );
 };
