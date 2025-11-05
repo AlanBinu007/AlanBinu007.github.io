@@ -30,13 +30,29 @@ import google from "../../images/Google.png";
 import ibm from "../../images/ibm1.png";
 import verified from "../../images/Verified.png";
 import Stars from "../../components/Stars/Stars";
+import toast from "react-hot-toast";
+import AlanBinuTranscript from "../.././assests/cv/Online Course Academic Transcript.pdf";
 
 class Education extends Component {
   componentDidMount() {
     document.body.style.zoom = "90%";
   }
+
   render() {
     const theme = this.props.theme;
+
+    function downloadAcademicTranscript() {
+      const apiPromise = new Promise((resolve, reject) => {
+        setTimeout(() => {
+          resolve({ data: "okay" });
+        }, 1000);
+      });
+      toast.promise(apiPromise, {
+        loading: "Getting the file.....",
+        success: "Downloading the file.....",
+      });
+    }
+
     return (
       <>
         <Stars />
@@ -253,7 +269,20 @@ class Education extends Component {
               target="_blank"
             >
               <button className="button">View More</button>
+              <a
+                href={AlanBinuTranscript}
+                //href="https://firebasestorage.googleapis.com/v0/b/alanbinu-stripe.appspot.com/o/Alan%20Binu-CV.pdf?alt=media&token=c17cd636-1b59-459b-950a-b1768d52dd75"
+                download
+              >
+                <button
+                  className="button"
+                  onClick={downloadAcademicTranscript}
+                >
+                  Download My Digital Transcript
+                </button>
+              </a>
             </a>
+            
           </center>
           <center>
             <h3 className="heading-sub-text">

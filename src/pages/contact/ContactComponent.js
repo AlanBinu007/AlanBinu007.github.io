@@ -33,7 +33,7 @@ class Contact extends Component {
       const apiPromise = new Promise((resolve, reject) => {
         setTimeout(() => {
           resolve({ data: "okay" });
-        }, 3000);
+        }, 1000);
       });
       toast.promise(apiPromise, {
         loading: "Getting the file.....",
