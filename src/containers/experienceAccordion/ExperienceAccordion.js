@@ -26,7 +26,7 @@ class ExperienceAccordion extends Component {
                       <h5 class="resume-title">Voipbird IT</h5>
                     </a>
                   </h3>
-                  <i>November 2023 - till now</i>
+                  <i>November 2023 - April 2026</i>
                   <br />
                   <i>Dubai, UAE</i>
                   <br />
