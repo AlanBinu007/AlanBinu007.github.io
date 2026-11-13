@@ -102,7 +102,7 @@ class Contact extends Component {
               <br />
               <div>
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1531.398953095234!2d55.15812694855984!3d25.09323907121768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6be20232a78b%3A0x4f6727442f0bd497!2sDubai%20Internet%20City!5e1!3m2!1sen!2sin!4v1691376088725!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3555.6151423645424!2d76.3639694!3d10.010023700000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080c9d4968ed6b%3A0xac7018beb464c0b!2sInfopark!5e1!3m2!1sen!2sin!4v1794463650288!5m2!1sen!2sin"
                   width="1000"
                   height="650"
                   style={GoogleMapStyle}

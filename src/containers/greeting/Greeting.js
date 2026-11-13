@@ -33,14 +33,15 @@ export default function Greeting(props) {
     <div>
       <div className="content-tertiary">
         <p>
-          <br/>
+          <br />
           <span>✌🏻</span> Hi there! I'm Alan Binu
         </p>
       </div>
       <div className="content-primary">
         <h1>
-          I am <span>IBM</span> and  <span>Meta Certified Back-End Developer</span>.
-          I craft Digital Solutions as a <span>Software Engineer</span> 
+          I am <span>IBM</span> and <span>Meta Certified </span>
+          <span>Software Engineer. </span>I craft Digital Solutions and ensure
+          seamless operations as a <span>Software Engineer</span>
           {/* with Solid{" "} <span>MSc</span> fundamentals. */}
         </h1>
       </div>
